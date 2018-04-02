@@ -5,7 +5,7 @@
     "scripts": {
         "build": "tsc",
         "lint": "tslint --project . 'src/**/*.ts' 'test/**/*.ts'",
-        "test": "mocha ./lib/test/*_test.js"
+        "test": "yarn build; mocha ./lib/test/*_test.js"
     },
     "repository": {
         "type": "git",
