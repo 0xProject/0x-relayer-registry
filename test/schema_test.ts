@@ -1,26 +1,26 @@
 import * as chai from 'chai';
 import * as dirtyChai from 'dirty-chai';
 import { Validator } from 'jsonschema';
+import { SchemaValidator } from '@0xproject/json-schemas';
 import 'mocha';
 
-import { addressSchema, relayerSchema, relayersSchema } from '../schemas';
+import { relayerSchema, relayersSchema } from '../schemas';
 import * as relayers from '../../relayers.json';
 
 chai.config.includeStack = true;
 chai.use(dirtyChai);
 const expect = chai.expect;
 
-const validator = new Validator();
-validator.addSchema(addressSchema, addressSchema.id);
-validator.addSchema(relayerSchema, relayerSchema.id);
-validator.addSchema(relayersSchema, relayersSchema.id);
+const schemaValidator = new SchemaValidator();
+schemaValidator.addSchema(relayerSchema);
+schemaValidator.addSchema(relayersSchema);
 const validateAgainstSchema = (
     testCases: any[],
     schema: any,
     shouldFail = false
 ) => {
     for (const testCase of testCases) {
-        const validationResult = validator.validate(testCase, schema);
+        const validationResult = schemaValidator.validate(testCase, schema);
         const hasErrors = validationResult.errors.length !== 0;
         if (shouldFail) {
             if (!hasErrors) {
