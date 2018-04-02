@@ -16,7 +16,9 @@ Entries that have values for `sra_http_endpoint` or `sra_ws_endpoint` comply wit
 
 1. Fork this repository.
 2. Add your logo image in a web-safe format to the `images` folder.
-3. Add an entry to `projects.json` that complies to the Project JSON Schema and passes validation.
+3. Add an entry to `relayers.json` that complies with the Relayer JSON Schema
+4. Run `yarn test` to verify that the updated `relayers.json` file passes schema validation.
+
 
 Criteria:
 - The icon should be small, square, but high resolution, ideally a vector/svg.
@@ -26,20 +28,20 @@ A sample submission:
 
 ```json
 {
-    "name"      : "Radical Relayer",
+    "name"      : "Sample Relayer",
     "url"       : "https://asamplewebsite.com",
-    "logo"      : "radicalrelayer.png",
+    "logo"      : "samplerelayer.png",
     "networks"  : [
         {
             "networkId" : 1,
             "sra_http_endpoint" : "https://api.asamplewebsite.com/",
             "sra_ws_endpoint" : "ws://api.asamplewebsite.com",
             "static_order_fields" : {
-                "fee_recipient_addresses": ["0x1111111111111111111111111111111111111111"],
+                "fee_recipient_addresses": ["0x1111111111111111111111111111111111111111"]
             }
         }
     ]
 }
 ```
 
-A full list of permitted fields can be found in the [project-schema.json](./project-schema.json) file.
+A full list of permitted fields can be found in the [schemas.ts](./schemas.ts) file.

@@ -1,0 +1,34 @@
+{
+    "name": "0x-relayer-registry",
+    "version": "0.0.1",
+    "description": "Registry of relayers building on 0x",
+    "scripts": {
+        "build": "tsc",
+        "lint": "tslint --project . 'src/**/*.ts' 'test/**/*.ts'",
+        "test": "mocha ./lib/test/*_test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/0xProject/0x-relayer-registry.git"
+    },
+    "author": "0x",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/0xProject/0x-relayer-registry/issues"
+    },
+    "homepage": "https://github.com/0xProject/0x-relayer-registry/README.md",
+    "devDependencies": {
+        "@0xproject/json-schemas": "^0.7.14",
+        "@types/mocha": "^5.0.0",
+        "chai": "^4.1.2",
+        "copyfiles": "^2.0.0",
+        "dirty-chai": "^2.0.1",
+        "jsonschema": "^1.2.2",
+        "mocha": "^5.0.4",
+        "tslint": "5.8.0",
+        "typescript": "2.7.1"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}

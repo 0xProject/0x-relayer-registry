@@ -1,0 +1,17 @@
+[
+    {
+        "name"      : "Sample Relayer",
+        "url"       : "https://asamplewebsite.com",
+        "logo"      : "samplerelayer.png",
+        "networks"  : [
+            {
+                "networkId" : 1,
+                "sra_http_endpoint" : "https://api.asamplewebsite.com/",
+                "sra_ws_endpoint" : "ws://api.asamplewebsite.com",
+                "static_order_fields" : {
+                    "fee_recipient_addresses": ["0x1111111111111111111111111111111111111111"]
+                }
+            }
+        ]
+    }
+]
