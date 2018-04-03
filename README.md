@@ -1,14 +1,12 @@
 # 0x Project Registry
 
-A collection of relayers built on [0x](https://0xproject.com/) and their corresponding metadata. Al
+A collection of relayers built on [0x](https://0xproject.com/) and their corresponding metadata.
 
-All address keys follow the [EIP 55 address checksum format](https://github.com/ethereum/EIPs/issues/55).
-
-Submit PRs to add a relayer. Relayers must be live on at lest one test network to be added.
+Addition to this repository is not a requirement to use the 0x Protocol. It's intended to make it easier for traders and developers to find [SRA-Compliant](https://github.com/0xProject/standard-relayer-api/blob/master/README.md) Relayers and take advantage of networked liquidity, as well as for users to find a relayer to start trading on.
 
 ## Usage
 
-Clone this repo and import projects.json into your own project.
+Clone this repo and import relayers.json into your own project.
 
 Entries that have values for `sra_http_endpoint` or `sra_ws_endpoint` comply with the [Standard Relayer API](https://github.com/0xProject/standard-relayer-api/blob/master/README.md). These endpoints can be easily queried using [0x Connect](https://github.com/0xProject/0x-monorepo/tree/development/packages/connect).
 
@@ -16,13 +14,10 @@ Entries that have values for `sra_http_endpoint` or `sra_ws_endpoint` comply wit
 
 1. Fork this repository.
 2. Add your logo image in a web-safe format to the `images` folder.
-3. Add an entry to `relayers.json` that complies with the Relayer JSON Schema
-4. Run `yarn test` to verify that the updated `relayers.json` file passes schema validation.
-
-
-Criteria:
-- The icon should be small, square, but high resolution, ideally a vector/svg.
-- Do not add your entry to the end of the JSON array, messing with the trailing comma. Your pull request should only be an addition of lines, and any line removals should be deliberate deprecations of those logos.
+3. Add an entry to `relayers.json` that complies with the Relayer JSON Schema in `schemas.ts`
+4. Install [yarn](https://yarnpkg.com) and run `yarn install`
+5. Run `yarn test` to verify that the updated `relayers.json` file passes schema validation.
+6. Submit PR to merge
 
 A sample submission:
 
