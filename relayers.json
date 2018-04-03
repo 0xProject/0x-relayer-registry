@@ -45,7 +45,10 @@
         "networks"  : [
             {
                 "networkId" : 3,
-                "sra_http_endpoint" : "https://api.openrelay.xyz/v0/"
+                "sra_http_endpoint" : "https://api.openrelay.xyz/v0/",
+                "static_order_fields" : {
+                    "fee_recipient_addresses" : ["0xc22d5b2951db72b44cfb8089bb8cd374a3c354ea"]
+                }
             }
         ]
     },
@@ -59,7 +62,6 @@
                 "sra_http_endpoint" : "https://kovan.theoceanx.com/api/v0/"
             }
         ]
-
     },
     {
         "name"      : "Amadeus Relay",
@@ -71,8 +73,74 @@
                 "sra_http_endpoint" : "https://api.amadeusrelay.org/api/v0/"
             }
         ]
-
+    },
+    {
+        "name"      : "Shark Relay",
+        "url"       : "https://sharkrelay.com/",
+        "logo"      : "",
+        "networks"  : [
+            {
+                "networkId" : 1
+            }
+        ]
+    },
+    {
+        "name"      : "Token Jar",
+        "url"       : "https://tokenjar.io/",
+        "logo"      : "",
+        "networks"  : [
+            {
+                "networkId" : 1
+            }
+        ]
+    },
+    {
+        "name"      : "Paradex",
+        "url"       : "https://paradex.io/",
+        "logo"      : "",
+        "networks"  : [
+            {
+                "networkId" : 1
+            }
+        ]
+    },
+    {
+        "name"      : "IDT Exchange",
+        "url"       : "https://www.idtexchange.com/",
+        "logo"      : "",
+        "networks"  : [
+            {
+                "networkId" : 1
+            }
+        ]
+    },
+    {
+        "name"      : "DDEX",
+        "url"       : "https://ddex.io/",
+        "logo"      : "",
+        "networks"  : [
+            {
+                "networkId" : 1,
+                "static_order_fields" : {
+                    "fee_recipient_addresses" : ["0xe269e891a2ec8585a378882ffa531141205e92e9"]
+                }
+            },
+            {
+                "networkId" : 42
+            }
+        ]
+    },
+    {
+        "name"      : "Decent Exchange",
+        "url"       : "https://decent.exchange/",
+        "logo"      : "",
+        "networks"  : [
+            {
+                "networkId" : 1
+            },
+            {
+                "networkId" : 42
+            }
+        ]
     }
-
-
 ]
