@@ -100,7 +100,10 @@
         "logo"      : "",
         "networks"  : [
             {
-                "networkId" : 1
+                "networkId" : 1,
+                "static_order_fields" : {
+                    "taker_addresses" : ["0x4969358e80cdc3d74477d7447bffa3b2e2acbe92"]
+                }
             }
         ]
     },
