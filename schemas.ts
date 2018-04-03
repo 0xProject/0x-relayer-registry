@@ -18,7 +18,7 @@ export const relayerSchema = {
                 type: 'object',
                 properties: {
                     networkId: {
-                        type: 'string'
+                        type: 'integer'
                     },
                     sra_http_endpoint: {
                         type: 'string',
