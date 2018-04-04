@@ -35,4 +35,4 @@ describe('Relayers', () => {
             validateAgainstSchema([relayers], relayersSchema);
         });
     });
-}); // tslint:disable:max-file-line-count
+});

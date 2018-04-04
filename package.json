@@ -1,10 +1,11 @@
 {
+    "private" : true,
     "name": "0x-relayer-registry",
     "version": "0.0.1",
     "description": "Registry of relayers building on 0x",
     "scripts": {
         "build": "tsc",
-        "lint": "tslint --project . 'src/**/*.ts' 'test/**/*.ts'",
+        "lint": "tslint --project . 'test/**/*.ts'",
         "test": "yarn build; mocha ./lib/test/*_test.js"
     },
     "repository": {
@@ -27,7 +28,4 @@
         "tslint": "5.8.0",
         "typescript": "2.7.1"
     },
-    "publishConfig": {
-        "access": "public"
-    }
 }
