@@ -1,4 +1,4 @@
-# 0x Project Registry
+# 0x Relayer Registry
 
 A collection of relayers built on [0x](https://0xproject.com/) and their corresponding metadata.
 
