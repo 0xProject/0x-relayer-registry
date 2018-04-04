@@ -1,0 +1,138 @@
+[
+    {
+        "name": "Radar Relay",
+        "url": "https://radarrelay.com",
+        "networks": [
+            {
+                "networkId": 1,
+                "sra_http_endpoint": "https://api.radarrelay.com/0x/v0/",
+                "sra_ws_endpoint": "wss://ws.radarrelay.com/0x/v0/ws/",
+                "static_order_fields": {
+                    "fee_recipient_addresses": ["0xa258b39954cef5cb142fd567a46cddb31a670124"]
+                }
+            },
+            {
+                "networkId": 42,
+                "sra_http_endpoint": "https://api.kovan.radarrelay.com/0x/v0/",
+                "sra_ws_endpoint": "wss://api.kovan.radarrelay.com/0x/v0/ws/"
+            }
+        ]
+    },
+    {
+        "name": "ERC dEX",
+        "url": "https://ercdex.com",
+        "networks": [
+            {
+                "networkId": 1,
+                "sra_http_endpoint": "https://api.ercdex.com/api/standard/1/v0/",
+                "sra_ws_endpoint": "wss://api.ercdex.com/",
+                "static_order_fields": {
+                    "fee_recipient_addresses": ["0x173a2467cece1f752eb8416e337d0f0b58cad795"]
+                }
+            },
+            {
+                "networkId": 42,
+                "sra_http_endpoint": "https://api.ercdex.com/api/standard/42/v0/"
+            }
+        ]
+    },
+    {
+        "name": "OpenRelay",
+        "url": "https://openrelay.xyz/",
+        "networks": [
+            {
+                "networkId": 3,
+                "sra_http_endpoint": "https://api.openrelay.xyz/v0/",
+                "static_order_fields": {
+                    "fee_recipient_addresses": ["0xc22d5b2951db72b44cfb8089bb8cd374a3c354ea"]
+                }
+            }
+        ]
+    },
+    {
+        "name": "The Ocean X",
+        "url": "https://theoceanx.com/",
+        "networks": [
+            {
+                "networkId": 42,
+                "sra_http_endpoint": "https://kovan.theoceanx.com/api/v0/"
+            }
+        ]
+    },
+    {
+        "name": "Amadeus Relay",
+        "url": "http://amadeusrelay.org/",
+        "networks": [
+            {
+                "networkId": 1,
+                "sra_http_endpoint": "https://api.amadeusrelay.org/api/v0/"
+            }
+        ]
+    },
+    {
+        "name": "Shark Relay",
+        "url": "https://sharkrelay.com/",
+        "networks": [
+            {
+                "networkId": 1
+            }
+        ]
+    },
+    {
+        "name": "Token Jar",
+        "url": "https://tokenjar.io/",
+        "networks": [
+            {
+                "networkId": 1
+            }
+        ]
+    },
+    {
+        "name": "Paradex",
+        "url": "https://paradex.io/",
+        "networks": [
+            {
+                "networkId": 1,
+                "static_order_fields": {
+                    "taker_addresses": ["0x4969358e80cdc3d74477d7447bffa3b2e2acbe92"]
+                }
+            }
+        ]
+    },
+    {
+        "name": "IDT Exchange",
+        "url": "https://www.idtexchange.com/",
+        "networks": [
+            {
+                "networkId": 1
+            }
+        ]
+    },
+    {
+        "name": "DDEX",
+        "url": "https://ddex.io/",
+        "networks": [
+            {
+                "networkId": 1,
+                "static_order_fields": {
+                    "fee_recipient_addresses": ["0xe269e891a2ec8585a378882ffa531141205e92e9"]
+                }
+            },
+            {
+                "networkId": 42
+            }
+        ]
+    },
+    {
+        "name": "Decent Exchange",
+        "url": "https://decent.exchange/",
+        "networks": [
+            {
+                "networkId": 1
+            },
+            {
+                "networkId": 42
+            }
+        ]
+    }
+]
