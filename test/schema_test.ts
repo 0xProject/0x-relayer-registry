@@ -18,14 +18,10 @@ const validateAgainstSchema = (testCases: any[], schema: any, shouldFail = false
     for (const testCase of testCases) {
         const validationResult = schemaValidator.validate(testCase, schema);
         const hasErrors = validationResult.errors.length !== 0;
-        if (shouldFail) {
-            if (!hasErrors) {
-                throw new Error(`Expected testCase: ${JSON.stringify(testCase, null, '\t')} to fail and it didn't.`);
-            }
-        } else {
-            if (hasErrors) {
-                throw new Error(JSON.stringify(validationResult.errors, null, '\t'));
-            }
+        if (shouldFail && !hasErrors) {
+            throw new Error(`Expected testCase: ${JSON.stringify(testCase, null, '\t')} to fail and it didn't.`);
+        } else if (!shouldFail && hasErrors) {
+            throw new Error(JSON.stringify(validationResult.errors, null, '\t'));
         }
     }
 };
