@@ -6,8 +6,8 @@ Addition to this repository is not a requirement to use the 0x Protocol. It's in
 
 ## Usage
 
-A. Clone this repo and import `relayers.json` into your own project or
-B. Get the latest version by fetching it directly from this repo 
+Option A. Clone this repo and import `relayers.json` into your own project or  
+Option B. Get the latest version by fetching it directly from this repo   
 `$ curl -i -H "Accept: application/json" https://api.github.com/repos/0xProject/0x-project-registry/contents/relayers.json?client_id={CLIENT_ID}&client_secret={CLIENT_SECRET}`
 
 Entries that have values for `sra_http_endpoint` or `sra_ws_endpoint` comply with the [Standard Relayer API](https://github.com/0xProject/standard-relayer-api/blob/master/README.md). These endpoints can be easily queried using [0x Connect](https://github.com/0xProject/0x-monorepo/tree/development/packages/connect).
