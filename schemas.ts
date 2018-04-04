@@ -14,6 +14,7 @@ export const relayerSchema = {
         },
         networks: {
             type: 'array',
+            minItems: 1,
             items: {
                 type: 'object',
                 properties: {
@@ -57,7 +58,7 @@ export const relayerSchema = {
             },
         },
     },
-    required: ['name', 'url', 'logo', 'networks'],
+    required: ['name', 'url', 'networks'],
 };
 
 export const relayersSchema = {
