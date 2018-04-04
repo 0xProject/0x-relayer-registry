@@ -15,7 +15,7 @@ Entries that have values for `sra_http_endpoint` or `sra_ws_endpoint` comply wit
 ## Submission Process
 
 1. Fork this repository.
-2. Add your logo image in a web-safe format to the `images` folder.
+2. Add your logo image in a web-safe format (GIF, JPEG, or PNG) to the `images` folder.
 3. Add an entry to `relayers.json` that complies with the Relayer JSON Schema in [`schemas.ts`](./schemas.ts)
 4. Install [yarn](https://yarnpkg.com) and run `yarn install`
 5. Run `yarn test` to verify that the updated `relayers.json` file passes schema validation.
