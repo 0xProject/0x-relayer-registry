@@ -142,5 +142,25 @@
                 "networkId": 42
             }
         ]
+    },
+    {
+        "name": "Shark Relay",
+        "url": "https://sharkrelay.com",
+        "networks": [
+            {
+                "networkId": 1,
+                "sra_http_endpoint": "https://api.sharkrelay.com/0x/v0/",
+                "sra_ws_endpoint": "wss://ws.sharkrelay.com/0x/v0/ws/",
+                "static_order_fields": {
+                    "fee_recipient_addresses": ["0x55890b06f0877a01bb5349d93b202961f8e27a9b"]
+                }
+            },
+            {
+                "networkId": 42,
+                "static_order_fields": {
+                    "fee_recipient_addresses": ["0x2e5a815fb70ae9e27188d9a4e72965e55b6f77b2"]
+                }
+            }
+        ]
     }
 ]
