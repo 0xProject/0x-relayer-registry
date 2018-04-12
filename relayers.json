@@ -150,7 +150,6 @@
             {
                 "networkId": 1,
                 "sra_http_endpoint": "https://api.sharkrelay.com/0x/v0/",
-                "sra_ws_endpoint": "wss://ws.sharkrelay.com/0x/v0/ws/",
                 "static_order_fields": {
                     "fee_recipient_addresses": ["0x55890b06f0877a01bb5349d93b202961f8e27a9b"]
                 }
