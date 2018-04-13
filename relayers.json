@@ -69,11 +69,14 @@
     },
     {
         "name": "Amadeus Relay",
-        "url": "http://amadeusrelay.org/",
+        "url": "https://amadeusrelay.org/",
         "networks": [
             {
-                "networkId": 1,
-                "sra_http_endpoint": "https://api.amadeusrelay.org/api/v0/"
+                "networkId": 42,
+                "sra_http_endpoint": "https://api.amadeusrelay.org/api/v0/",
+                "static_order_fields": {
+                    "fee_recipient_addresses": ["0xf14958eca9f5b341f74916aacfb6e3d2fb9a4a15"]
+                }
             }
         ]
     },
