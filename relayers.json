@@ -70,6 +70,7 @@
     {
         "name": "Amadeus Relay",
         "url": "https://amadeusrelay.org/",
+        "logo": "amadeus_relay.png",
         "networks": [
             {
                 "networkId": 42,
