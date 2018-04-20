@@ -39,7 +39,7 @@
     {
         "name": "OpenRelay",
         "url": "https://openrelay.xyz/",
-        "logo": "openrelay.png",
+        "logo_img": "openrelay.png",
         "networks": [
             {
                 "networkId": 1,
@@ -60,7 +60,7 @@
     {
         "name": "The Ocean X",
         "url": "https://theoceanx.com/",
-        "logo": "TheOceanX.png",
+        "logo_img": "TheOceanX.png",
         "networks": [
             {
                 "networkId": 42,
@@ -71,7 +71,7 @@
     {
         "name": "Amadeus Relay",
         "url": "https://amadeusrelay.org/",
-        "logo": "amadeus_relay.png",
+        "logo_img": "amadeus_relay.png",
         "networks": [
             {
                 "networkId": 42,
