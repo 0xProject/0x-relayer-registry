@@ -16,7 +16,7 @@ Entries that have values for `sra_http_endpoint` or `sra_ws_endpoint` comply wit
 
 1.  Fork this repository.
 2.  Add your logo image in a web-safe format (GIF, JPEG, or PNG) to the `images\logos` folder.
-3.  Add a header image for display in the [0x portal](https://0xproject.com/portal) in a web-safe format (GIF, JPEG, or PNG) to the `images\headers` folder. The header image should be 648x384px
+3.  Add a header image for promotional display in the [0x portal](https://0xproject.com/portal) in a web-safe format (GIF, JPEG, or PNG) to the `images\headers` folder. The header image should be 683x384 or larger, following a 16:9 ratio.
 4.  Add an entry to `relayers.json` that complies with the Relayer JSON Schema in [`schemas.ts`](./schemas.ts)
 5.  Install [yarn](https://yarnpkg.com) and run `yarn install`
 6.  Run `yarn test` to verify that the updated `relayers.json` file passes schema validation.
