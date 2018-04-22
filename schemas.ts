@@ -9,7 +9,10 @@ export const relayerSchema = {
             type: 'string',
             format: 'uri',
         },
-        logo: {
+        header_img: {
+            type: 'string',
+        },
+        logo_img: {
             type: 'string',
         },
         networks: {
