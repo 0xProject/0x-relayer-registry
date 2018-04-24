@@ -27,7 +27,8 @@ A sample submission:
 ```json
 {
     "name": "Sample Relayer",
-    "url": "https://asamplewebsite.com",
+    "homepage_url": "https://asamplewebsite.com",
+    "app_url": "https://app.asamplewebsite.com",
     "header_img": "samplerelayerheader.png",
     "logo_img": "samplerelayerlogo.png",
     "networks": [

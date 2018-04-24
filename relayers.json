@@ -1,7 +1,8 @@
 [
     {
         "name": "Radar Relay",
-        "url": "https://radarrelay.com",
+        "homepage_url": "https://radarrelay.com",
+        "app_url": "https://app.radarrelay.com",
         "networks": [
             {
                 "networkId": 1,
@@ -20,7 +21,8 @@
     },
     {
         "name": "ERC dEX",
-        "url": "https://ercdex.com",
+        "homepage_url": "https://ercdex.com",
+        "app_url": "https://app.ercdex.com/",
         "networks": [
             {
                 "networkId": 1,
@@ -38,7 +40,7 @@
     },
     {
         "name": "OpenRelay",
-        "url": "https://openrelay.xyz/",
+        "homepage_url": "https://openrelay.xyz/",
         "logo_img": "openrelay.png",
         "networks": [
             {
@@ -59,7 +61,7 @@
     },
     {
         "name": "The Ocean X",
-        "url": "https://theoceanx.com/",
+        "homepage_url": "https://theoceanx.com/",
         "logo_img": "TheOceanX.png",
         "networks": [
             {
@@ -70,7 +72,7 @@
     },
     {
         "name": "Amadeus Relay",
-        "url": "https://amadeusrelay.org/",
+        "homepage_url": "https://amadeusrelay.org/",
         "logo_img": "amadeus_relay.png",
         "networks": [
             {
@@ -84,7 +86,8 @@
     },
     {
         "name": "Shark Relay",
-        "url": "https://sharkrelay.com/",
+        "homepage_url": "https://sharkrelay.com/",
+        "app_url": "https://app.sharkrelay.com/",
         "networks": [
             {
                 "networkId": 1
@@ -93,7 +96,7 @@
     },
     {
         "name": "Token Jar",
-        "url": "https://tokenjar.io/",
+        "homepage_url": "https://tokenjar.io/",
         "networks": [
             {
                 "networkId": 1
@@ -102,7 +105,8 @@
     },
     {
         "name": "Paradex",
-        "url": "https://paradex.io/",
+        "homepage_url": "https://paradex.io/",
+        "app_url": "https://app.paradex.io/",
         "networks": [
             {
                 "networkId": 1,
@@ -114,7 +118,8 @@
     },
     {
         "name": "IDT Exchange",
-        "url": "https://www.idtexchange.com/",
+        "homepage_url": "https://www.idtexchange.com/",
+        "app_url": "https://trade.idtexchange.com/",
         "networks": [
             {
                 "networkId": 1
@@ -123,7 +128,8 @@
     },
     {
         "name": "DDEX",
-        "url": "https://ddex.io/",
+        "homepage_url": "https://ddex.io/",
+        "app_url": "https://ddex.io/trade",
         "networks": [
             {
                 "networkId": 1,
@@ -138,7 +144,7 @@
     },
     {
         "name": "Decent Exchange",
-        "url": "https://decent.exchange/",
+        "homepage_url": "https://decent.exchange/",
         "networks": [
             {
                 "networkId": 1
