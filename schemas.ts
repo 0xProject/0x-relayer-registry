@@ -5,9 +5,15 @@ export const relayerSchema = {
         name: {
             type: 'string',
         },
-        url: {
+        homepage_url: {
             type: 'string',
             format: 'uri',
+            description: 'url that points to the marketing / informational website',
+        },
+        app_url: {
+            type: 'string',
+            format: 'uri',
+            description: 'url that points to the trading interface',
         },
         header_img: {
             type: 'string',
@@ -61,7 +67,7 @@ export const relayerSchema = {
             },
         },
     },
-    required: ['name', 'url', 'networks'],
+    required: ['name', 'homepage_url', 'networks'],
 };
 
 export const relayersSchema = {
