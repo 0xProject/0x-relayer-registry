@@ -1,7 +1,8 @@
 [
     {
         "name": "Radar Relay",
-        "url": "https://radarrelay.com",
+        "homepage_url": "https://radarrelay.com",
+        "app_url": "https://app.radarrelay.com",
         "networks": [
             {
                 "networkId": 1,
@@ -20,7 +21,8 @@
     },
     {
         "name": "ERC dEX",
-        "url": "https://ercdex.com",
+        "homepage_url": "https://ercdex.com",
+        "app_url": "https://app.ercdex.com/",
         "networks": [
             {
                 "networkId": 1,
@@ -38,8 +40,8 @@
     },
     {
         "name": "OpenRelay",
-        "url": "https://openrelay.xyz/",
-        "logo": "openrelay.png",
+        "homepage_url": "https://openrelay.xyz/",
+        "logo_img": "openrelay.png",
         "networks": [
             {
                 "networkId": 1,
@@ -59,7 +61,8 @@
     },
     {
         "name": "The Ocean X",
-        "url": "https://theoceanx.com/",
+        "homepage_url": "https://theoceanx.com/",
+        "logo_img": "TheOceanX.png",
         "networks": [
             {
                 "networkId": 42,
@@ -69,17 +72,21 @@
     },
     {
         "name": "Amadeus Relay",
-        "url": "http://amadeusrelay.org/",
+        "homepage_url": "https://amadeusrelay.org/",
+        "logo_img": "amadeus_relay.png",
         "networks": [
             {
-                "networkId": 1,
-                "sra_http_endpoint": "https://api.amadeusrelay.org/api/v0/"
+                "networkId": 42,
+                "sra_http_endpoint": "https://api.amadeusrelay.org/api/v0/",
+                "static_order_fields": {
+                    "fee_recipient_addresses": ["0xf14958eca9f5b341f74916aacfb6e3d2fb9a4a15"]
+                }
             }
         ]
     },
     {
         "name": "Token Jar",
-        "url": "https://tokenjar.io/",
+        "homepage_url": "https://tokenjar.io/",
         "networks": [
             {
                 "networkId": 1
@@ -88,7 +95,8 @@
     },
     {
         "name": "Paradex",
-        "url": "https://paradex.io/",
+        "homepage_url": "https://paradex.io/",
+        "app_url": "https://app.paradex.io/",
         "networks": [
             {
                 "networkId": 1,
@@ -100,7 +108,8 @@
     },
     {
         "name": "IDT Exchange",
-        "url": "https://www.idtexchange.com/",
+        "homepage_url": "https://www.idtexchange.com/",
+        "app_url": "https://trade.idtexchange.com/",
         "networks": [
             {
                 "networkId": 1
@@ -109,7 +118,8 @@
     },
     {
         "name": "DDEX",
-        "url": "https://ddex.io/",
+        "homepage_url": "https://ddex.io/",
+        "app_url": "https://ddex.io/trade",
         "networks": [
             {
                 "networkId": 1,
@@ -124,7 +134,7 @@
     },
     {
         "name": "Decent Exchange",
-        "url": "https://decent.exchange/",
+        "homepage_url": "https://decent.exchange/",
         "networks": [
             {
                 "networkId": 1
@@ -136,7 +146,8 @@
     },
     {
         "name": "Shark Relay",
-        "url": "https://sharkrelay.com",
+        "homepage_url": "https://sharkrelay.com/",
+        "app_url": "https://app.sharkrelay.com/",
         "networks": [
             {
                 "networkId": 1,
