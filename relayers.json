@@ -89,7 +89,10 @@
         "homepage_url": "https://tokenjar.io/",
         "networks": [
             {
-                "networkId": 1
+                "networkId": 1,
+                "static_order_fields": {
+                    "fee_recipient_addresses" : ["0x5e150a33ffa97a8d22f59c77ae5487b089ef62e9"]
+                }
             }
         ]
     },
@@ -124,7 +127,8 @@
             {
                 "networkId": 1,
                 "static_order_fields": {
-                    "fee_recipient_addresses": ["0xe269e891a2ec8585a378882ffa531141205e92e9"]
+                    "fee_recipient_addresses": ["0xe269e891a2ec8585a378882ffa531141205e92e9"],
+                    "taker_addresses": ["0xe269e891a2ec8585a378882ffa531141205e92e9"]
                 }
             },
             {
@@ -135,6 +139,7 @@
     {
         "name": "Decent Exchange",
         "homepage_url": "https://decent.exchange/",
+        "app_url" : "https://decent.exchange/",
         "networks": [
             {
                 "networkId": 1
@@ -145,6 +150,18 @@
         ]
     },
     {
+        "name" : "Tokenlon",
+        "homepage_url" : "https://tokenlon.token.im/",
+        "networks" : [
+            {
+                "networkId": 1,
+                "static_order_fields" : {
+                    "fee_recipient_addresses" : ["0x6f7ae872e995f98fcd2a7d3ba17b7ddfb884305f"]
+                 }
+            }
+        ]
+     },
+     {
         "name": "Shark Relay",
         "homepage_url": "https://sharkrelay.com/",
         "app_url": "https://app.sharkrelay.com/",
