@@ -4,6 +4,7 @@
         "homepage_url": "https://radarrelay.com",
         "app_url": "https://app.radarrelay.com",
         "header_img" : "radarrelay.png",
+        "logo_img": "radarrelay.png",
         "networks": [
             {
                 "networkId": 1,
@@ -25,6 +26,7 @@
         "homepage_url": "https://ercdex.com",
         "app_url": "https://app.ercdex.com/",
         "header_img" : "ercdex.png",
+        "logo_img": "ercdex.png",
         "networks": [
             {
                 "networkId": 1,
@@ -93,6 +95,7 @@
         "name": "Token Jar",
         "homepage_url": "https://tokenjar.io/",
         "header_img" : "tokenjar.png",
+        "logo_img": "tokenjar.png",
         "networks": [
             {
                 "networkId": 1,
@@ -107,6 +110,7 @@
         "homepage_url": "https://paradex.io/",
         "app_url": "https://app.paradex.io/",
         "header_img" : "paradex.png",
+        "logo_img": "paradex.png",
         "networks": [
             {
                 "networkId": 1,
@@ -121,6 +125,7 @@
         "homepage_url": "https://www.idtexchange.com/",
         "app_url": "https://trade.idtexchange.com/",
         "header_img" : "idtexchange.png",
+        "logo_img": "idtexchange.png",
         "networks": [
             {
                 "networkId": 1
@@ -132,6 +137,7 @@
         "homepage_url": "https://ddex.io/",
         "app_url": "https://ddex.io/trade",
         "header_img" : "ddex.png",
+        "logo_img": "ddex.png",
         "networks": [
             {
                 "networkId": 1,
@@ -163,6 +169,7 @@
         "name" : "Tokenlon",
         "homepage_url" : "https://tokenlon.token.im/",
         "header_img": "tokenlon.png",
+        "logo_img": "tokenlon.png",
         "networks" : [
             {
                 "networkId": 1,
@@ -177,6 +184,7 @@
         "homepage_url": "https://sharkrelay.com/",
         "app_url": "https://app.sharkrelay.com/",
         "header_img": "sharkrelay.png",
+        "logo_img": "shark.png",
         "networks": [
             {
                 "networkId": 1,
