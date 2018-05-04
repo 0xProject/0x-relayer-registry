@@ -215,5 +215,20 @@
               }
           }
       ]
+    },
+    {
+      "name": "Instex",
+      "homepage_url": "https://instex.io/",
+      "app_url": "https://app.instex.io/",
+      "header_img": "instex.png",
+      "logo_img": "instex.png",
+      "networks": [
+          {
+              "networkId": 1
+          },
+          {
+              "networkId": 42
+          }
+      ]
     }
 ]
