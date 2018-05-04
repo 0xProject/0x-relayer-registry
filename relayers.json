@@ -200,5 +200,18 @@
                 }
             }
         ]
+    },
+    {
+      "name": "Bamboo Relay",
+      "homepage_url": "https://bamboorelay.com/",
+      "app_url": "https://bamboorelay.com/",
+      "networks": [
+          {
+              "networkId": 1,
+              "static_order_fields": {
+                  "fee_recipient_addresses": ["0x5dd835a893734b8d556eccf87800b76dda5aedc5"]
+              }
+          }
+      ]
     }
 ]
