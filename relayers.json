@@ -205,6 +205,8 @@
       "name": "Bamboo Relay",
       "homepage_url": "https://bamboorelay.com/",
       "app_url": "https://bamboorelay.com/",
+      "header_img": "bamboorelay.png",
+      "logo_img": "bamboorelay.png",
       "networks": [
           {
               "networkId": 1,
