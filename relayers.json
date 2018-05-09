@@ -230,5 +230,20 @@
               "networkId": 42
           }
       ]
+    },
+    {
+      "name": "StarBitEx",
+      "homepage_url": "https://www.starbitex.com/",
+      "app_url": "https://www.starbitex.com/Trade",
+      "header_img": "starbitex.png",
+      "logo_img": "starbitex.png",
+      "networks": [
+        {
+          "networkId":1,
+          "static_order_fields" : {
+            "fee_recipient_addresses": ["0x8124071f810d533ff63de61d0c98db99eeb99d64"]
+          }
+        }
+      ]
     }
 ]
