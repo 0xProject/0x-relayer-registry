@@ -8,16 +8,16 @@
         "networks": [
             {
                 "networkId": 1,
-                "sra_http_endpoint": "https://api.radarrelay.com/0x/v0/",
-                "sra_ws_endpoint": "wss://ws.radarrelay.com/0x/v0/ws/",
+                "sra_http_endpoint": "https://api.radarrelay.com/0x",
+                "sra_ws_endpoint": "wss://ws.radarrelay.com/0x",
                 "static_order_fields": {
                     "fee_recipient_addresses": ["0xa258b39954cef5cb142fd567a46cddb31a670124"]
                 }
             },
             {
                 "networkId": 42,
-                "sra_http_endpoint": "https://api.kovan.radarrelay.com/0x/v0/",
-                "sra_ws_endpoint": "wss://api.kovan.radarrelay.com/0x/v0/ws/"
+                "sra_http_endpoint": "https://api.kovan.radarrelay.com/0x",
+                "sra_ws_endpoint": "wss://api.kovan.radarrelay.com/0x"
             }
         ]
     },
@@ -30,7 +30,7 @@
         "networks": [
             {
                 "networkId": 1,
-                "sra_http_endpoint": "https://api.ercdex.com/api/standard/1/v0/",
+                "sra_http_endpoint": "https://api.ercdex.com/api/standard/1",
                 "static_order_fields": {
                     "fee_recipient_addresses": ["0x173a2467cece1f752eb8416e337d0f0b58cad795"]
                 }
@@ -49,14 +49,14 @@
         "networks": [
             {
                 "networkId": 1,
-                "sra_http_endpoint": "https://api.openrelay.xyz/v0/",
+                "sra_http_endpoint": "https://api.openrelay.xyz",
                 "static_order_fields": {
                     "fee_recipient_addresses": ["0xc22d5b2951db72b44cfb8089bb8cd374a3c354ea"]
                 }
             },
             {
                 "networkId": 3,
-                "sra_http_endpoint": "https://api.openrelay.xyz/v0/",
+                "sra_http_endpoint": "https://api.openrelay.xyz",
                 "static_order_fields": {
                     "fee_recipient_addresses": ["0xc22d5b2951db72b44cfb8089bb8cd374a3c354ea"]
                 }
@@ -71,7 +71,7 @@
         "networks": [
             {
                 "networkId": 42,
-                "sra_http_endpoint": "https://kovan.theoceanx.com/api/v0/"
+                "sra_http_endpoint": "https://kovan.theoceanx.com/api"
             }
         ]
     },
@@ -83,7 +83,7 @@
         "networks": [
             {
                 "networkId": 42,
-                "sra_http_endpoint": "https://api.amadeusrelay.org/api/v0/",
+                "sra_http_endpoint": "https://api.amadeusrelay.org/api",
                 "static_order_fields": {
                     "fee_recipient_addresses": ["0xf14958eca9f5b341f74916aacfb6e3d2fb9a4a15"]
                 }
@@ -187,7 +187,7 @@
         "networks": [
             {
                 "networkId": 1,
-                "sra_http_endpoint": "https://api.sharkrelay.com/api/v0/",
+                "sra_http_endpoint": "https://api.sharkrelay.com/api",
                 "static_order_fields": {
                     "fee_recipient_addresses": ["0x55890b06f0877a01bb5349d93b202961f8e27a9b"]
                 }
