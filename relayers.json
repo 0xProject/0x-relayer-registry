@@ -31,7 +31,6 @@
             {
                 "networkId": 1,
                 "sra_http_endpoint": "https://api.ercdex.com/api/standard/1/v0/",
-                "sra_ws_endpoint": "wss://api.ercdex.com/",
                 "static_order_fields": {
                     "fee_recipient_addresses": ["0x173a2467cece1f752eb8416e337d0f0b58cad795"]
                 }
