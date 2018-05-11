@@ -209,9 +209,22 @@
       "networks": [
           {
               "networkId": 1,
+              "sra_http_endpoint": "https://sra.bamboorelay.com/main",
               "static_order_fields": {
                   "fee_recipient_addresses": ["0x5dd835a893734b8d556eccf87800b76dda5aedc5"]
               }
+          },
+          {
+              "networkId": 3,
+              "sra_http_endpoint": "https://sra.bamboorelay.com/ropsten"
+          },
+          {
+              "networkId": 4,
+              "sra_http_endpoint": "https://sra.bamboorelay.com/rinkeby"
+          },
+          {
+              "networkId": 42,
+              "sra_http_endpoint": "https://sra.bamboorelay.com/kovan"
           }
       ]
     },
