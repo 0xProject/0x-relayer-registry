@@ -260,5 +260,16 @@
           }
         }
       ]
+    },
+    {
+      "name": "Mobidex",
+      "homepage_url": "https://mobidex.io/",
+      "header_img": "mobidex.png",
+      "logo_img": "mobidex.png",
+      "networks": [
+        {
+          "networkId":42
+        }
+      ]
     }
 ]
