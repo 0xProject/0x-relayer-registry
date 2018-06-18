@@ -2,7 +2,7 @@
 
 A collection of relayers built on [0x](https://0xproject.com/) and their corresponding metadata.
 
-Addition to this repository is not a requirement to use the 0x Protocol. It's intended to make it easier for traders and developers to find [SRA-Compliant](https://github.com/0xProject/standard-relayer-api/blob/master/README.md) relayers and take advantage of networked liquidity, as well as for users to find a relayer to start trading on.
+Addition to this repository is not a requirement to use the 0x Protocol. It's intended to make it easier for traders and developers to find [SRA-Compliant](https://github.com/0xProject/standard-relayer-api/blob/master/README.md) relayers and take advantage of networked liquidity, as well as for users to find a relayer to start trading on via [0x Portal](https://0xproject.com/portal).
 
 ## Usage
 
@@ -44,4 +44,16 @@ A sample submission:
 }
 ```
 
-A full list of permitted fields can be found in the [schemas.ts](./schemas.ts) file.
+## Permitted Metadata
+
+Relayers may choose to include additional metadata associated with their web or mobile app. This additional metadata may be used to increase discoverability in [0x Portal](https://0xproject.com/portal). A full list of permitted fields can be found in the [schemas.ts](./schemas.ts) file.
+
+### Language Support
+
+Relayers may include a list of [BCP47 language subtags](http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry) to signal language localization available within their associated user interface.
+
+```json
+{
+    "languages": ["en" "cmn" "fr" "ko"],
+}
+```
