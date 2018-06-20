@@ -114,7 +114,7 @@
             {
                 "networkId": 1,
                 "static_order_fields": {
-                    "taker_addresses": ["0x4969358e80cdc3d74477d7447bffa3b2e2acbe92"]
+                    "taker_addresses": ["0xd2045edc40199019e221d71c0913343f7908d0d5","0x4969358e80cdc3d74477d7447bffa3b2e2acbe92"]
                 }
             }
         ]
