@@ -271,5 +271,29 @@
           "networkId":42
         }
       ]
+    },
+    {
+      "name": "LedgerDex",
+      "homepage_url": "https://www.ledgerdex.com/",
+      "app_url": "https://app.ledgerdex.com/",
+      "header_img": "ledgerdex.png",
+      "logo_img": "ledgerdex.png",
+      "networks": [
+          {
+              "networkId": 1,
+              "static_order_fields": {
+                  "fee_recipient_addresses": ["0x4524baa98f9a3b9dec57caae7633936ef96bd708"]
+              }
+          },
+          {
+              "networkId": 3
+          },
+          {
+              "networkId": 4
+          },
+          {
+              "networkId": 42
+          }
+      ]
     }
 ]
