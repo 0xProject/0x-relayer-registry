@@ -21,6 +21,15 @@ export const relayerSchema = {
         logo_img: {
             type: 'string',
         },
+        languages: {
+            type: 'array',
+            minItems: 1,
+            description: 'subtags indicating support for different languages',
+            items: {
+              type: 'string',
+              format: 'bcp47',
+            },
+        },
         networks: {
             type: 'array',
             minItems: 1,
