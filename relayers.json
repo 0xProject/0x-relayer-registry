@@ -295,5 +295,20 @@
               "networkId": 42
           }
       ]
+    },
+    {
+      "name": "Bloqboard",
+      "homepage_url": "https://bloqboard.com/",
+      "app_url": "https://app.bloqboard.com/",
+      "header_img": "bloqboard.png",
+      "logo_img": "bloqboard.png",
+      "networks": [
+        {
+          "networkId": 1
+        },
+        {
+          "networkId": 42
+        }
+      ]
     }
 ]
