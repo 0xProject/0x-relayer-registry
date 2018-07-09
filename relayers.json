@@ -304,9 +304,6 @@
       "logo_img": "bloqboard.png",
       "networks": [
         {
-          "networkId": 1
-        },
-        {
           "networkId": 42
         }
       ]
