@@ -74,9 +74,16 @@
         "networks": [
             {
                 "networkId": 42,
-                "sra_http_endpoint": "https://api.amadeusrelay.org/api/v0/",
+                "sra_http_endpoint": "https://kovan.amadeusrelay.org/api/v0/",
                 "static_order_fields": {
                     "fee_recipient_addresses": ["0xf14958eca9f5b341f74916aacfb6e3d2fb9a4a15"]
+                }
+            },
+            {
+                "networkId": 1,
+                "sra_http_endpoint": "https://api.amadeusrelay.org/api/v0/",
+                "static_order_fields": {
+                    "fee_recipient_addresses": ["0x0e8BA001a821F3CE0734763D008C9d7c957F5852"]
                 }
             }
         ]
