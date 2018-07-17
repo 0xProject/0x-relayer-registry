@@ -83,9 +83,16 @@
         "networks": [
             {
                 "networkId": 42,
-                "sra_http_endpoint": "https://api.amadeusrelay.org/api",
+                "sra_http_endpoint": "https://api.amadeusrelay.org/api/v0/",
                 "static_order_fields": {
                     "fee_recipient_addresses": ["0xf14958eca9f5b341f74916aacfb6e3d2fb9a4a15"]
+                }
+            },
+            {
+                "networkId": 1,
+                "sra_http_endpoint": "https://api.amadeusrelay.org/api/v0/",
+                "static_order_fields": {
+                    "fee_recipient_addresses": ["0x0e8ba001a821f3ce0734763d008c9d7c957f5852"]
                 }
             }
         ]
