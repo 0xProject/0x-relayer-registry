@@ -64,14 +64,19 @@
         ]
     },
     {
-        "name": "The Ocean X",
+        "name": "The Ocean",
         "homepage_url": "https://theocean.trade/",
         "logo_img": "TheOceanX.png",
         "header_img" : "theoceanx.png",
         "networks": [
             {
-                "networkId": 42,
-                "sra_http_endpoint": "https://kovan.theoceanx.com/api"
+                "networkId": 42
+            },
+            {
+              "networkId": 1,
+              "static_order_fields" : {
+                "fee_recipient_addresses" : ["0x7219612be7036d1bfa933e16ca1246008f38c5fe"]
+              }
             }
         ]
     },
@@ -316,5 +321,5 @@
           "networkId": 42
         }
       ]
-    }
+    },
 ]
