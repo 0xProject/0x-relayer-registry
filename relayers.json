@@ -187,6 +187,7 @@
         "networks" : [
             {
                 "networkId": 1,
+                "sra_http_endpoint": "https://mainnet-dexapi.tokenlon.im/v1",
                 "static_order_fields" : {
                     "fee_recipient_addresses" : ["0x6f7ae872e995f98fcd2a7d3ba17b7ddfb884305f"]
                  }
