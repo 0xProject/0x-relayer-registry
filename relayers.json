@@ -8,7 +8,7 @@
         "networks": [
             {
                 "networkId": 1,
-                "sra_http_endpoint": "https://api.radarrelay.com/0x/v2",
+                "sra_http_endpoint": "https://api.radarrelay.com/0x/v2/",
                 "sra_ws_endpoint": "wss://ws.radarrelay.com/0x/v2",
                 "static_order_fields": {
                     "fee_recipient_addresses": ["0xa258b39954cef5cb142fd567a46cddb31a670124"]
@@ -16,7 +16,7 @@
             },
             {
                 "networkId": 42,
-                "sra_http_endpoint": "https://api.kovan.radarrelay.com/0x/v2",
+                "sra_http_endpoint": "https://api.kovan.radarrelay.com/0x/v2/",
                 "sra_ws_endpoint": "wss://api.kovan.radarrelay.com/0x/v2"
             }
         ]
@@ -50,14 +50,14 @@
         "networks": [
             {
                 "networkId": 1,
-                "sra_http_endpoint": "https://api.openrelay.xyz/v2",
+                "sra_http_endpoint": "https://api.openrelay.xyz/v2/",
                 "static_order_fields": {
                     "fee_recipient_addresses": ["0xc22d5b2951db72b44cfb8089bb8cd374a3c354ea"]
                 }
             },
             {
                 "networkId": 3,
-                "sra_http_endpoint": "https://api.openrelay.xyz/v2",
+                "sra_http_endpoint": "https://api.openrelay.xyz/v2/",
                 "static_order_fields": {
                     "fee_recipient_addresses": ["0xc22d5b2951db72b44cfb8089bb8cd374a3c354ea"]
                 }
@@ -186,7 +186,6 @@
         "networks" : [
             {
                 "networkId": 1,
-                "sra_http_endpoint": "https://mainnet-dexapi.tokenlon.im/v1",
                 "static_order_fields" : {
                     "fee_recipient_addresses" : ["0x6f7ae872e995f98fcd2a7d3ba17b7ddfb884305f"]
                  }
@@ -202,15 +201,12 @@
         "networks": [
             {
                 "networkId": 1,
-                "sra_http_endpoint": "https://api.sharkrelay.com/api",
-                "sra_ws_endpoint": "wss://app.sharkrelay.com/ws",
                 "static_order_fields": {
                     "fee_recipient_addresses": ["0x55890b06f0877a01bb5349d93b202961f8e27a9b"]
                 }
             },
             {
                 "networkId": 42,
-                "sra_ws_endpoint": "wss://kovan.sharkrelay.com/ws",
                 "static_order_fields": {
                     "fee_recipient_addresses": ["0x2e5a815fb70ae9e27188d9a4e72965e55b6f77b2"]
                 }
