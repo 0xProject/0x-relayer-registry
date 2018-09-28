@@ -203,8 +203,8 @@
         "networks": [
             {
                 "networkId": 1,
-                "sra_http_endpoint": "https://api.sharkrelay.com/api",
-                "sra_ws_endpoint": "wss://app.sharkrelay.com/ws",
+                "sra_http_endpoint": "https://api.sharkrelay.com/sra/v2/",
+                "sra_ws_endpoint": "wss://app.sharkrelay.com/v2/ws",
                 "static_order_fields": {
                     "fee_recipient_addresses": ["0x55890b06f0877a01bb5349d93b202961f8e27a9b"]
                 }
