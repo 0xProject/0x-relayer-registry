@@ -315,5 +315,20 @@
           "networkId": 42
         }
       ]
+    },
+	{ 
+        "name": "3xchange.io",
+        "homepage_url": "https://3xchange.io/",
+        "header_img" : "3xchange.png",
+        "logo_img": "3xchange.png",
+        "networks": [
+            {
+                "networkId": 1,
+                "sra_http_endpoint": "https://3xchange.io/relayer/v2",
+                "static_order_fields": {
+                    "fee_recipient_addresses": ["0xab8199eba802e7e6634d4389bf23999b7ae6b253"]
+                }
+            }
+        ]
     }
 ]
