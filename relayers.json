@@ -61,6 +61,13 @@
                 "static_order_fields": {
                     "fee_recipient_addresses": ["0xc22d5b2951db72b44cfb8089bb8cd374a3c354ea"]
                 }
+            },
+            {
+                "networkId": 42,
+                "sra_http_endpoint": "https://api.openrelay.xyz/v2/",
+                "static_order_fields": {
+                    "fee_recipient_addresses": ["0xc22d5b2951db72b44cfb8089bb8cd374a3c354ea"]
+                }
             }
         ]
     },
