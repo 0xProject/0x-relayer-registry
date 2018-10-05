@@ -296,18 +296,22 @@
       "networks": [
           {
               "networkId": 1,
+              "sra_http_endpoint": "https://api-v2.ledgerdex.com/sra/v2/",
               "static_order_fields": {
                   "fee_recipient_addresses": ["0x4524baa98f9a3b9dec57caae7633936ef96bd708"]
               }
           },
           {
-              "networkId": 3
+              "networkId": 3,
+              "static_order_fields": {
+                  "fee_recipient_addresses": ["0x4524baa98f9a3b9dec57caae7633936ef96bd708"]
+              }
           },
           {
-              "networkId": 4
-          },
-          {
-              "networkId": 42
+              "networkId": 42,
+              "static_order_fields": {
+                  "fee_recipient_addresses": ["0x4524baa98f9a3b9dec57caae7633936ef96bd708"]
+              }
           }
       ]
     },
@@ -323,7 +327,7 @@
         }
       ]
     },
-	{ 
+	{
         "name": "3xchange.io",
         "homepage_url": "https://3xchange.io/",
         "header_img" : "3xchange.png",
