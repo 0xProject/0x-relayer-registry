@@ -73,8 +73,8 @@ export const relayerSchema = {
 export const relayersSchema = {
     id: '/Relayers',
     title: 'Relayers',
-    type: 'array',
-    items: {
+    type: 'object',
+    additionalProperties: {
         $ref: '/Relayer',
     },
 };

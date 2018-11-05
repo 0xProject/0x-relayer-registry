@@ -1,9 +1,9 @@
-[
-    {
+{
+    "e8d27d8d-ddf6-48b1-9663-60b0a3ddc716": {
         "name": "Radar Relay",
         "homepage_url": "https://radarrelay.com",
         "app_url": "https://app.radarrelay.com",
-        "header_img" : "radarrelay.png",
+        "header_img": "radarrelay.png",
         "logo_img": "radarrelay.png",
         "networks": [
             {
@@ -21,11 +21,11 @@
             }
         ]
     },
-    {
+    "e8d27d8d-ddf6-48b1-9663-60b0a3ddc716": {
         "name": "ERC dEX",
         "homepage_url": "https://ercdex.com",
         "app_url": "https://app.ercdex.com/",
-        "header_img" : "ercdex.png",
+        "header_img": "ercdex.png",
         "logo_img": "ercdex.png",
         "networks": [
             {
@@ -33,7 +33,26 @@
                 "sra_http_endpoint": "https://app.ercdex.com/api/v2/",
                 "sra_ws_endpoint": "wss://app.ercdex.com/ws/v2",
                 "static_order_fields": {
-                    "fee_recipient_addresses": ["0x58a5959a6c528c5d5e03f7b9e5102350e24005f1","0x7df569a165bee41ca74374c76bd888ea02dcc4a8","0xa71deef328b2c40d0e6525cd248ae749e9208dbb","0x3d974ce554fec1acd8d034f13b6640b300689a37","0xbd069e7ad0b7366ed1f0559dd8fe3e8efc0c4a72","0x4411c446756f8ed22343e8fbe8d24607027daffd","0xee2d43b8e4b57477acc2f4def265fe2887865ac0","0x5bf2c11b0aa0c752c6de6fed48dd56fed2a4286d","0x1dd43bbe2264234bccfbb88aadbde331d87719ee","0x8bf0785306eb675e38b742f59a7fcf05fccdf2b7","0x1956f5afa5d21000145e6cd2fa8ce3f52fa40875","0xa5b8d094f8364a9771c7a2287ee13efa08f847a4","0xc95bf3d3b4d6619119f3a8e29ec1d73ee801b9df","0x28f5cf7044f509af67f473c18b1f5f4f97fb4ce9","0x3b4ce2ea700ff327c3b4fe624f328c4106fd2885","0x3fa5f23d42847e49d242496ffe2a3c8fda66706c","0xd592cfa56f4c443fb27008329d67ed7d4edb59c0","0x173a2467cece1f752eb8416e337d0f0b58cad795"]
+                    "fee_recipient_addresses": [
+                        "0x58a5959a6c528c5d5e03f7b9e5102350e24005f1",
+                        "0x7df569a165bee41ca74374c76bd888ea02dcc4a8",
+                        "0xa71deef328b2c40d0e6525cd248ae749e9208dbb",
+                        "0x3d974ce554fec1acd8d034f13b6640b300689a37",
+                        "0xbd069e7ad0b7366ed1f0559dd8fe3e8efc0c4a72",
+                        "0x4411c446756f8ed22343e8fbe8d24607027daffd",
+                        "0xee2d43b8e4b57477acc2f4def265fe2887865ac0",
+                        "0x5bf2c11b0aa0c752c6de6fed48dd56fed2a4286d",
+                        "0x1dd43bbe2264234bccfbb88aadbde331d87719ee",
+                        "0x8bf0785306eb675e38b742f59a7fcf05fccdf2b7",
+                        "0x1956f5afa5d21000145e6cd2fa8ce3f52fa40875",
+                        "0xa5b8d094f8364a9771c7a2287ee13efa08f847a4",
+                        "0xc95bf3d3b4d6619119f3a8e29ec1d73ee801b9df",
+                        "0x28f5cf7044f509af67f473c18b1f5f4f97fb4ce9",
+                        "0x3b4ce2ea700ff327c3b4fe624f328c4106fd2885",
+                        "0x3fa5f23d42847e49d242496ffe2a3c8fda66706c",
+                        "0xd592cfa56f4c443fb27008329d67ed7d4edb59c0",
+                        "0x173a2467cece1f752eb8416e337d0f0b58cad795"
+                    ]
                 }
             },
             {
@@ -42,11 +61,11 @@
             }
         ]
     },
-    {
+    "e7714eed-de97-49dc-a054-36f8c31a89f6": {
         "name": "OpenRelay",
         "homepage_url": "https://openrelay.xyz/",
         "logo_img": "openrelay.png",
-        "header_img" : "openrelay.png",
+        "header_img": "openrelay.png",
         "networks": [
             {
                 "networkId": 1,
@@ -71,28 +90,28 @@
             }
         ]
     },
-    {
+    "018cd091-1c5c-4c4b-8310-da86951c41af": {
         "name": "The Ocean",
         "homepage_url": "https://theocean.trade/",
         "logo_img": "TheOceanX.png",
-        "header_img" : "theoceanx.png",
+        "header_img": "theoceanx.png",
         "networks": [
             {
                 "networkId": 42
             },
             {
-              "networkId": 1,
-              "static_order_fields" : {
-                "fee_recipient_addresses" : ["0x7219612be7036d1bfa933e16ca1246008f38c5fe"]
-              }
+                "networkId": 1,
+                "static_order_fields": {
+                    "fee_recipient_addresses": ["0x7219612be7036d1bfa933e16ca1246008f38c5fe"]
+                }
             }
         ]
     },
-    {
+    "69d469d2-51ef-4922-8547-9ee100744ad0": {
         "name": "Amadeus Relay",
         "homepage_url": "https://amadeusrelay.org/",
         "logo_img": "amadeus_relay.png",
-        "header_img" : "amaedeus.png",
+        "header_img": "amaedeus.png",
         "networks": [
             {
                 "networkId": 42,
@@ -108,55 +127,58 @@
             }
         ]
     },
-    {
+    "c7cb913a-1266-4f1b-9307-8e3b469801df": {
         "name": "Token Jar",
         "homepage_url": "https://tokenjar.io/",
-        "header_img" : "tokenjar.png",
+        "header_img": "tokenjar.png",
         "logo_img": "tokenjar.png",
         "networks": [
             {
                 "networkId": 1,
                 "static_order_fields": {
-                    "fee_recipient_addresses" : ["0x5e150a33ffa97a8d22f59c77ae5487b089ef62e9"]
+                    "fee_recipient_addresses": ["0x5e150a33ffa97a8d22f59c77ae5487b089ef62e9"]
                 }
             }
         ]
     },
-    {
+    "41aa62be-9ca3-40fd-9047-b43c94af2b34": {
         "name": "Paradex",
         "homepage_url": "https://paradex.io/",
         "app_url": "https://app.paradex.io/",
-        "header_img" : "paradex.png",
+        "header_img": "paradex.png",
         "logo_img": "paradex.png",
         "networks": [
             {
                 "networkId": 1,
                 "static_order_fields": {
-                    "taker_addresses": ["0xd2045edc40199019e221d71c0913343f7908d0d5","0x4969358e80cdc3d74477d7447bffa3b2e2acbe92"]
+                    "taker_addresses": [
+                        "0xd2045edc40199019e221d71c0913343f7908d0d5",
+                        "0x4969358e80cdc3d74477d7447bffa3b2e2acbe92"
+                    ]
                 }
             }
         ]
     },
-    {
+    "56fb9405-fa8a-4d76-81a3-40e06662b4af": {
         "name": "IDT Exchange",
         "homepage_url": "https://www.idtexchange.com/",
         "app_url": "https://trade.idtexchange.com/",
-        "header_img" : "idtexchange.png",
+        "header_img": "idtexchange.png",
         "logo_img": "idtexchange.png",
         "networks": [
             {
                 "networkId": 1,
-                "static_order_fields" : {
+                "static_order_fields": {
                     "fee_recipient_addresses": ["0xeb71bad396acaa128aeadbc7dbd59ca32263de01"]
                 }
             }
         ]
     },
-    {
+    "819f0640-3fb5-492e-80d0-f88c532167eb": {
         "name": "DDEX",
         "homepage_url": "https://ddex.io/",
         "app_url": "https://ddex.io/trade",
-        "header_img" : "ddex.png",
+        "header_img": "ddex.png",
         "logo_img": "ddex.png",
         "networks": [
             {
@@ -171,11 +193,11 @@
             }
         ]
     },
-    {
+    "b11e3dab-801a-457c-bdbd-f43844f9dcd9": {
         "name": "Decent Exchange",
         "homepage_url": "https://decent.exchange/",
-        "app_url" : "https://decent.exchange/",
-        "header_img" : "decentexchange.png",
+        "app_url": "https://decent.exchange/",
+        "header_img": "decentexchange.png",
         "networks": [
             {
                 "networkId": 1
@@ -185,21 +207,21 @@
             }
         ]
     },
-    {
-        "name" : "Tokenlon",
-        "homepage_url" : "https://tokenlon.token.im/",
+    "99178f4a-6ab4-487a-a9c5-ca3a08cf95dd": {
+        "name": "Tokenlon",
+        "homepage_url": "https://tokenlon.token.im/",
         "header_img": "tokenlon.png",
         "logo_img": "tokenlon.png",
-        "networks" : [
+        "networks": [
             {
                 "networkId": 1,
-                "static_order_fields" : {
-                    "fee_recipient_addresses" : ["0x6f7ae872e995f98fcd2a7d3ba17b7ddfb884305f"]
-                 }
+                "static_order_fields": {
+                    "fee_recipient_addresses": ["0x6f7ae872e995f98fcd2a7d3ba17b7ddfb884305f"]
+                }
             }
         ]
-     },
-     {
+    },
+    "b80cdd15-a2e1-414d-9a54-fcaeedd6c78d": {
         "name": "Shark Relay",
         "homepage_url": "https://sharkrelay.com/",
         "app_url": "https://app.sharkrelay.com/",
@@ -222,115 +244,115 @@
             }
         ]
     },
-    {
-      "name": "Bamboo Relay",
-      "homepage_url": "https://bamboorelay.com/",
-      "app_url": "https://bamboorelay.com/",
-      "header_img": "bamboorelay.png",
-      "logo_img": "bamboorelay.png",
-      "networks": [
-          {
-              "networkId": 1,
-              "static_order_fields": {
-                  "fee_recipient_addresses": ["0x5dd835a893734b8d556eccf87800b76dda5aedc5"]
-              }
-          },
-          {
-              "networkId": 3
-          },
-          {
-              "networkId": 4
-          },
-          {
-              "networkId": 42
-          }
-      ]
+    "7dd82cad-24bd-457f-adb5-962549d4c1f5": {
+        "name": "Bamboo Relay",
+        "homepage_url": "https://bamboorelay.com/",
+        "app_url": "https://bamboorelay.com/",
+        "header_img": "bamboorelay.png",
+        "logo_img": "bamboorelay.png",
+        "networks": [
+            {
+                "networkId": 1,
+                "static_order_fields": {
+                    "fee_recipient_addresses": ["0x5dd835a893734b8d556eccf87800b76dda5aedc5"]
+                }
+            },
+            {
+                "networkId": 3
+            },
+            {
+                "networkId": 4
+            },
+            {
+                "networkId": 42
+            }
+        ]
     },
-    {
-      "name": "Instex",
-      "homepage_url": "https://instex.io/",
-      "app_url": "https://app.instex.io/",
-      "header_img": "instex.png",
-      "logo_img": "instex.png",
-      "networks": [
-          {
-              "networkId": 1
-          },
-          {
-              "networkId": 42
-          }
-      ]
+    "309776c3-692d-44de-9454-76a075ca4cbd": {
+        "name": "Instex",
+        "homepage_url": "https://instex.io/",
+        "app_url": "https://app.instex.io/",
+        "header_img": "instex.png",
+        "logo_img": "instex.png",
+        "networks": [
+            {
+                "networkId": 1
+            },
+            {
+                "networkId": 42
+            }
+        ]
     },
-    {
-      "name": "StarBitEx",
-      "homepage_url": "https://www.starbitex.com/",
-      "app_url": "https://www.starbitex.com/Trade",
-      "header_img": "starbitex.png",
-      "logo_img": "starbitex.png",
-      "networks": [
-        {
-          "networkId":1,
-          "static_order_fields" : {
-            "fee_recipient_addresses": ["0x8124071f810d533ff63de61d0c98db99eeb99d64"]
-          }
-        }
-      ]
+    "636fe09e-c5c9-446b-9478-91cdc5d946bf": {
+        "name": "StarBitEx",
+        "homepage_url": "https://www.starbitex.com/",
+        "app_url": "https://www.starbitex.com/Trade",
+        "header_img": "starbitex.png",
+        "logo_img": "starbitex.png",
+        "networks": [
+            {
+                "networkId": 1,
+                "static_order_fields": {
+                    "fee_recipient_addresses": ["0x8124071f810d533ff63de61d0c98db99eeb99d64"]
+                }
+            }
+        ]
     },
-    {
-      "name": "Mobidex",
-      "homepage_url": "https://mobidex.io/",
-      "header_img": "mobidex.png",
-      "logo_img": "mobidex.png",
-      "networks": [
-        {
-          "networkId":42
-        }
-      ]
+    "84a305a9-ac90-4906-b740-3e75a4578690": {
+        "name": "Mobidex",
+        "homepage_url": "https://mobidex.io/",
+        "header_img": "mobidex.png",
+        "logo_img": "mobidex.png",
+        "networks": [
+            {
+                "networkId": 42
+            }
+        ]
     },
-    {
-      "name": "LedgerDex",
-      "homepage_url": "https://www.ledgerdex.com/",
-      "app_url": "https://app.ledgerdex.com/",
-      "header_img": "ledgerdex.png",
-      "logo_img": "ledgerdex.png",
-      "networks": [
-          {
-              "networkId": 1,
-              "sra_http_endpoint": "https://api-v2.ledgerdex.com/sra/v2/",
-              "static_order_fields": {
-                  "fee_recipient_addresses": ["0x4524baa98f9a3b9dec57caae7633936ef96bd708"]
-              }
-          },
-          {
-              "networkId": 3,
-              "static_order_fields": {
-                  "fee_recipient_addresses": ["0x4524baa98f9a3b9dec57caae7633936ef96bd708"]
-              }
-          },
-          {
-              "networkId": 42,
-              "static_order_fields": {
-                  "fee_recipient_addresses": ["0x4524baa98f9a3b9dec57caae7633936ef96bd708"]
-              }
-          }
-      ]
+    "79d223be-d5ff-4d7a-847e-f75d8047091e": {
+        "name": "LedgerDex",
+        "homepage_url": "https://www.ledgerdex.com/",
+        "app_url": "https://app.ledgerdex.com/",
+        "header_img": "ledgerdex.png",
+        "logo_img": "ledgerdex.png",
+        "networks": [
+            {
+                "networkId": 1,
+                "sra_http_endpoint": "https://api-v2.ledgerdex.com/sra/v2/",
+                "static_order_fields": {
+                    "fee_recipient_addresses": ["0x4524baa98f9a3b9dec57caae7633936ef96bd708"]
+                }
+            },
+            {
+                "networkId": 3,
+                "static_order_fields": {
+                    "fee_recipient_addresses": ["0x4524baa98f9a3b9dec57caae7633936ef96bd708"]
+                }
+            },
+            {
+                "networkId": 42,
+                "static_order_fields": {
+                    "fee_recipient_addresses": ["0x4524baa98f9a3b9dec57caae7633936ef96bd708"]
+                }
+            }
+        ]
     },
-    {
-      "name": "Bloqboard",
-      "homepage_url": "https://bloqboard.com/",
-      "app_url": "https://app.bloqboard.com/",
-      "header_img": "bloqboard.png",
-      "logo_img": "bloqboard.png",
-      "networks": [
-        {
-          "networkId": 42
-        }
-      ]
+    "c65147ee-b1e7-4ca6-85eb-6264d3a07b6d": {
+        "name": "Bloqboard",
+        "homepage_url": "https://bloqboard.com/",
+        "app_url": "https://app.bloqboard.com/",
+        "header_img": "bloqboard.png",
+        "logo_img": "bloqboard.png",
+        "networks": [
+            {
+                "networkId": 42
+            }
+        ]
     },
-    {
+    "40be486b-715b-4726-9108-a94fbb8db2d2": {
         "name": "3xchange.io",
         "homepage_url": "https://3xchange.io/",
-        "header_img" : "3xchange.png",
+        "header_img": "3xchange.png",
         "logo_img": "3xchange.png",
         "networks": [
             {
@@ -342,16 +364,16 @@
             }
         ]
     },
-    {
+    "bd0cc35b-6ec0-40c4-8d60-af85ce133d03": {
         "name": "blockswap",
         "homepage_url": "https://blockswap.co/",
         "app_url": "https://blockswap.co/trade",
-        "header_img" : "blockswap.png",
+        "header_img": "blockswap.png",
         "logo_img": "blockswap.png",
         "networks": [
             {
                 "networkId": 42
             }
         ]
-      }
-]
+    }
+}
