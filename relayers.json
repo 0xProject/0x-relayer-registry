@@ -375,5 +375,21 @@
                 "networkId": 42
             }
         ]
+    },
+    "438cc998-d21d-4e4d-84e9-ce37e96c6114": {
+        "name": "Lake Project",
+        "homepage_url": "https://lakeproject.co/",
+        "app_url": "https://trade.lakeproject.co",
+        "logo_img": "lakeproject.png",
+        "header_img": "laketrade.png",
+        "networks": [
+            {
+                "networkId": 1,
+                "sra_http_endpoint": "https://sra.lakeproject.co/"
+            },
+            {
+                "networkId": 42
+            }
+        ]
     }
 }
