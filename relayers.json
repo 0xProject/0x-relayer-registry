@@ -385,7 +385,7 @@
         "networks": [
             {
                 "networkId": 1,
-                "sra_http_endpoint": "https://sra.lakeproject.co/"
+                "sra_http_endpoint": "https://api.lakeproject.co/"
             },
             {
                 "networkId": 42
