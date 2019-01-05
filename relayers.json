@@ -391,5 +391,21 @@
                 "networkId": 42
             }
         ]
+    },
+    "a751ca28-6d25-495d-9441-7f32fe3ff3e2":{
+    	"name":"Lescovex DEX",
+	"homepage_url":"https://lescovex.com",
+	"app_url":"https://lescovex.com/download",
+	"logo_img":"lescovex.png",
+	"header_img":"lescovex.png",
+	"networks":[
+		{
+			"networkId":1,
+			"sra_http_endpoint":"https://0x.lescovex.com/v2/",
+			"static_order_fields": {
+			"fee_recipient_addresses": ["0xa50da52183261a5df5ef0de2bbda8fd672be98c6"]
+							                }
+		}
+	]
     }
 }
