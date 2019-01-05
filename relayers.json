@@ -401,7 +401,7 @@
 	"networks":[
 		{
 			"networkId":1,
-			"sra_http_endpoint":"https://0x.lescovex.com:3000/v2/",
+			"sra_http_endpoint":"https://0x.lescovex.com/v2/",
 			"static_order_fields": {
 			"fee_recipient_addresses": ["0xa50da52183261a5df5ef0de2bbda8fd672be98c6"]
 							                }
