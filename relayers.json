@@ -159,54 +159,6 @@
             }
         ]
     },
-    "56fb9405-fa8a-4d76-81a3-40e06662b4af": {
-        "name": "IDT Exchange",
-        "homepage_url": "https://www.idtexchange.com/",
-        "app_url": "https://trade.idtexchange.com/",
-        "header_img": "idtexchange.png",
-        "logo_img": "idtexchange.png",
-        "networks": [
-            {
-                "networkId": 1,
-                "static_order_fields": {
-                    "fee_recipient_addresses": ["0xeb71bad396acaa128aeadbc7dbd59ca32263de01"]
-                }
-            }
-        ]
-    },
-    "819f0640-3fb5-492e-80d0-f88c532167eb": {
-        "name": "DDEX",
-        "homepage_url": "https://ddex.io/",
-        "app_url": "https://ddex.io/trade",
-        "header_img": "ddex.png",
-        "logo_img": "ddex.png",
-        "networks": [
-            {
-                "networkId": 1,
-                "static_order_fields": {
-                    "fee_recipient_addresses": ["0xe269e891a2ec8585a378882ffa531141205e92e9"],
-                    "taker_addresses": ["0xe269e891a2ec8585a378882ffa531141205e92e9"]
-                }
-            },
-            {
-                "networkId": 42
-            }
-        ]
-    },
-    "b11e3dab-801a-457c-bdbd-f43844f9dcd9": {
-        "name": "Decent Exchange",
-        "homepage_url": "https://decent.exchange/",
-        "app_url": "https://decent.exchange/",
-        "header_img": "decentexchange.png",
-        "networks": [
-            {
-                "networkId": 1
-            },
-            {
-                "networkId": 42
-            }
-        ]
-    },
     "99178f4a-6ab4-487a-a9c5-ca3a08cf95dd": {
         "name": "Tokenlon",
         "homepage_url": "https://tokenlon.token.im/",
