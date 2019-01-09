@@ -71,7 +71,7 @@
                 "networkId": 1,
                 "sra_http_endpoint": "https://api.openrelay.xyz/v2/",
                 "static_order_fields": {
-                    "fee_recipient_addresses": ["0xc22d5b2951db72b44cfb8089bb8cd374a3c354ea"]
+                    "fee_recipient_addresses": ["0xc22d5b2951db72b44cfb8089bb8cd374a3c354ea", "0x89db81c2dc4adaf10a93705b69289d479d576635"]
                 }
             },
             {
@@ -293,7 +293,7 @@
             {
                 "networkId": 1,
                 "static_order_fields": {
-                    "fee_recipient_addresses": ["0x8124071f810d533ff63de61d0c98db99eeb99d64"]
+                    "fee_recipient_addresses": ["0x8124071f810d533ff63de61d0c98db99eeb99d64", "0xc370d2a5920344aa6b7d8d11250e3e861434cbdd"]
                 }
             }
         ]
@@ -391,5 +391,29 @@
                 "networkId": 42
             }
         ]
+    },
+    "5a86e69e-f340-4229-9eca-e1a4cae79ce2" : {
+      "name": "Tokenmom",
+      "homepage_url": "https://tokenmom.com/",
+      "app_url": "https://tokenmom.com/exchange/TM-WETH",
+      "logo_img": "tokenmom.png",
+      "networks": [
+          {
+              "networkId": 1,
+              "fee_recipient_addresses" : ["0x4a821aa1affbf7ee89a245bf750d1d7374e77409"]
+          }
+      ]
+    },
+    "6e870497-2c0e-432f-bd9e-1171a80f1f0e" : {
+      "name": "GUDecks",
+      "homepage_url": "https://gudecks.com/",
+      "app_url": "https://gudecks.com/passes",
+      "logo_img": "gudecks.png",
+      "networks": [
+          {
+              "networkId": 1,
+              "fee_recipient_addresses" : ["0x013ec57d1237e7727f818b1a35e3506f754304e4"]
+          }
+      ]
     }
 }
