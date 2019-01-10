@@ -365,14 +365,18 @@
         ]
     },
     "bd0cc35b-6ec0-40c4-8d60-af85ce133d03": {
-        "name": "blockswap",
-        "homepage_url": "https://blockswap.co/",
-        "app_url": "https://blockswap.co/trade",
-        "header_img": "blockswap.png",
-        "logo_img": "blockswap.png",
+        "name": "BoxSwap",
+        "homepage_url": "https://beta.boxswap.io/",
+        "app_url": "https://beta.boxswap.io/trade",
+        "header_img": "boxswap.png",
+        "logo_img": "boxswap.png",
         "networks": [
             {
                 "networkId": 42
+            },
+            {
+                "networkId": 1,
+                "fee_recipient_addresses" : ["0x66a836664adc7c525c0cc4527dee8619d4faf669"]
             }
         ]
     },
