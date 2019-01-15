@@ -372,11 +372,13 @@
         "logo_img": "boxswap.png",
         "networks": [
             {
-                "networkId": 42
+                "networkId": 1,
+                "static_order_fields": {
+                  "fee_recipient_addresses" : ["0x66a836664adc7c525c0cc4527dee8619d4faf669"]
+                }
             },
             {
-                "networkId": 1,
-                "fee_recipient_addresses" : ["0x66a836664adc7c525c0cc4527dee8619d4faf669"]
+                "networkId": 42
             }
         ]
     },
@@ -404,7 +406,9 @@
       "networks": [
           {
               "networkId": 1,
-              "fee_recipient_addresses" : ["0x4a821aa1affbf7ee89a245bf750d1d7374e77409"]
+              "static_order_fields": {
+                "fee_recipient_addresses" : ["0x4a821aa1affbf7ee89a245bf750d1d7374e77409"]
+              }
           }
       ]
     },
@@ -416,7 +420,23 @@
       "networks": [
           {
               "networkId": 1,
-              "fee_recipient_addresses" : ["0x013ec57d1237e7727f818b1a35e3506f754304e4"]
+              "static_order_fields": {
+                "fee_recipient_addresses" : ["0x013ec57d1237e7727f818b1a35e3506f754304e4"]
+              }
+          }
+      ]
+    },
+    "3119f6e5-a629-4269-83e4-63a3e6ab3bee" : {
+      "name": "Veil",
+      "homepage_url": "https://veil.market/",
+      "app_url": "https://app.veil.co/",
+      "logo_img": "veil.png",
+      "networks": [
+          {
+              "networkId": 1,
+              "static_order_fields": {
+                  "taker_addresses": ["0xdf1bc6498338135de5ffdbcb98817d81e2665912"]
+              }
           }
       ]
     }
