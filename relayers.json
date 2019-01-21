@@ -205,18 +205,35 @@
         "networks": [
             {
                 "networkId": 1,
+                "sra_http_endpoint": "https://sra.bamboorelay.com/0x/v2/",
+                "sra_ws_endpoint": "wss://sra.bamboorelay.com/0x/v2/ws",
                 "static_order_fields": {
                     "fee_recipient_addresses": ["0x5dd835a893734b8d556eccf87800b76dda5aedc5"]
                 }
             },
             {
-                "networkId": 3
+                "networkId": 3,
+                "sra_http_endpoint": "https://sra.bamboorelay.com/0x/v2/",
+                "sra_ws_endpoint": "wss://sra.bamboorelay.com/0x/v2/ws",
+                "static_order_fields": {
+                    "fee_recipient_addresses": ["0x5dd835a893734b8d556eccf87800b76dda5aedc5"]
+                }
             },
             {
-                "networkId": 4
+                "networkId": 4,
+                "sra_http_endpoint": "https://sra.bamboorelay.com/0x/v2/",
+                "sra_ws_endpoint": "wss://sra.bamboorelay.com/0x/v2/ws",
+                "static_order_fields": {
+                    "fee_recipient_addresses": ["0x5dd835a893734b8d556eccf87800b76dda5aedc5"]
+                }
             },
             {
-                "networkId": 42
+                "networkId": 42,
+                "sra_http_endpoint": "https://sra.bamboorelay.com/0x/v2/",
+                "sra_ws_endpoint": "wss://sra.bamboorelay.com/0x/v2/ws",
+                "static_order_fields": {
+                    "fee_recipient_addresses": ["0x5dd835a893734b8d556eccf87800b76dda5aedc5"]
+                }
             }
         ]
     },
