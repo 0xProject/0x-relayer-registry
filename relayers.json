@@ -341,8 +341,8 @@
     },
     "bd0cc35b-6ec0-40c4-8d60-af85ce133d03": {
         "name": "BoxSwap",
-        "homepage_url": "https://beta.boxswap.io/",
-        "app_url": "https://beta.boxswap.io/trade",
+        "homepage_url": "https://boxswap.io/",
+        "app_url": "https://boxswap.io/",
         "header_img": "boxswap.png",
         "logo_img": "boxswap.png",
         "networks": [
