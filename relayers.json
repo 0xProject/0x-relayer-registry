@@ -391,5 +391,21 @@
                 "networkId": 42
             }
         ]
+    },
+    "b082dfda-04af-4a58-82e5-ddffe425ce67": {
+        "name": "MetaMorph.pro",
+        "homepage_url": "https://metamorph.pro",
+        "app_url": "https://app.metamorph.pro",
+        "header_img": "metamorph.png",
+        "logo_img": "metamorph.png",
+        "networks": [
+            {
+                "networkId": 1,
+                "sra_http_endpoint": "https://api.metamorph.pro/v2/",
+                "static_order_fields": {
+                    "fee_recipient_addresses": ["0xa9274fDa6d91a063F6AA0cfB172d6eb3B61ECF89"]
+                }
+            }
+        ]
     }
 }
