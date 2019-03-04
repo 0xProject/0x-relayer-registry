@@ -11,7 +11,9 @@
                 "sra_http_endpoint": "https://api.radarrelay.com/0x/v2/",
                 "sra_ws_endpoint": "wss://ws.radarrelay.com/0x/v2",
                 "static_order_fields": {
-                    "fee_recipient_addresses": ["0xa258b39954cef5cb142fd567a46cddb31a670124"]
+                    "fee_recipient_addresses": [
+                        "0xa258b39954cef5cb142fd567a46cddb31a670124"
+                    ]
                 }
             },
             {
@@ -81,14 +83,18 @@
                 "networkId": 3,
                 "sra_http_endpoint": "https://api.openrelay.xyz/v2/",
                 "static_order_fields": {
-                    "fee_recipient_addresses": ["0xc22d5b2951db72b44cfb8089bb8cd374a3c354ea"]
+                    "fee_recipient_addresses": [
+                        "0xc22d5b2951db72b44cfb8089bb8cd374a3c354ea"
+                    ]
                 }
             },
             {
                 "networkId": 42,
                 "sra_http_endpoint": "https://api.openrelay.xyz/v2/",
                 "static_order_fields": {
-                    "fee_recipient_addresses": ["0xc22d5b2951db72b44cfb8089bb8cd374a3c354ea"]
+                    "fee_recipient_addresses": [
+                        "0xc22d5b2951db72b44cfb8089bb8cd374a3c354ea"
+                    ]
                 }
             }
         ]
@@ -105,7 +111,9 @@
             {
                 "networkId": 1,
                 "static_order_fields": {
-                    "fee_recipient_addresses": ["0x7219612be7036d1bfa933e16ca1246008f38c5fe"]
+                    "fee_recipient_addresses": [
+                        "0x7219612be7036d1bfa933e16ca1246008f38c5fe"
+                    ]
                 }
             }
         ]
@@ -119,13 +127,17 @@
             {
                 "networkId": 42,
                 "static_order_fields": {
-                    "fee_recipient_addresses": ["0xf14958eca9f5b341f74916aacfb6e3d2fb9a4a15"]
+                    "fee_recipient_addresses": [
+                        "0xf14958eca9f5b341f74916aacfb6e3d2fb9a4a15"
+                    ]
                 }
             },
             {
                 "networkId": 1,
                 "static_order_fields": {
-                    "fee_recipient_addresses": ["0x0e8ba001a821f3ce0734763d008c9d7c957f5852"]
+                    "fee_recipient_addresses": [
+                        "0x0e8ba001a821f3ce0734763d008c9d7c957f5852"
+                    ]
                 }
             }
         ]
@@ -139,7 +151,9 @@
             {
                 "networkId": 1,
                 "static_order_fields": {
-                    "fee_recipient_addresses": ["0x5e150a33ffa97a8d22f59c77ae5487b089ef62e9"]
+                    "fee_recipient_addresses": [
+                        "0x5e150a33ffa97a8d22f59c77ae5487b089ef62e9"
+                    ]
                 }
             }
         ]
@@ -171,7 +185,9 @@
             {
                 "networkId": 1,
                 "static_order_fields": {
-                    "fee_recipient_addresses": ["0x6f7ae872e995f98fcd2a7d3ba17b7ddfb884305f"]
+                    "fee_recipient_addresses": [
+                        "0x6f7ae872e995f98fcd2a7d3ba17b7ddfb884305f"
+                    ]
                 }
             }
         ]
@@ -188,13 +204,17 @@
                 "sra_http_endpoint": "https://api.sharkrelay.com/sra/v2/",
                 "sra_ws_endpoint": "wss://app.sharkrelay.com/v2/ws",
                 "static_order_fields": {
-                    "fee_recipient_addresses": ["0x55890b06f0877a01bb5349d93b202961f8e27a9b"]
+                    "fee_recipient_addresses": [
+                        "0x55890b06f0877a01bb5349d93b202961f8e27a9b"
+                    ]
                 }
             },
             {
                 "networkId": 42,
                 "static_order_fields": {
-                    "fee_recipient_addresses": ["0x2e5a815fb70ae9e27188d9a4e72965e55b6f77b2"]
+                    "fee_recipient_addresses": [
+                        "0x2e5a815fb70ae9e27188d9a4e72965e55b6f77b2"
+                    ]
                 }
             }
         ]
@@ -211,7 +231,9 @@
                 "sra_http_endpoint": "https://sra.bamboorelay.com/0x/v2/",
                 "sra_ws_endpoint": "wss://sra.bamboorelay.com/0x/v2/ws",
                 "static_order_fields": {
-                    "fee_recipient_addresses": ["0x5dd835a893734b8d556eccf87800b76dda5aedc5"]
+                    "fee_recipient_addresses": [
+                        "0x5dd835a893734b8d556eccf87800b76dda5aedc5"
+                    ]
                 }
             },
             {
@@ -219,7 +241,9 @@
                 "sra_http_endpoint": "https://sra.bamboorelay.com/0x/v2/",
                 "sra_ws_endpoint": "wss://sra.bamboorelay.com/0x/v2/ws",
                 "static_order_fields": {
-                    "fee_recipient_addresses": ["0x5dd835a893734b8d556eccf87800b76dda5aedc5"]
+                    "fee_recipient_addresses": [
+                        "0x5dd835a893734b8d556eccf87800b76dda5aedc5"
+                    ]
                 }
             },
             {
@@ -227,7 +251,9 @@
                 "sra_http_endpoint": "https://sra.bamboorelay.com/0x/v2/",
                 "sra_ws_endpoint": "wss://sra.bamboorelay.com/0x/v2/ws",
                 "static_order_fields": {
-                    "fee_recipient_addresses": ["0x5dd835a893734b8d556eccf87800b76dda5aedc5"]
+                    "fee_recipient_addresses": [
+                        "0x5dd835a893734b8d556eccf87800b76dda5aedc5"
+                    ]
                 }
             },
             {
@@ -235,7 +261,9 @@
                 "sra_http_endpoint": "https://sra.bamboorelay.com/0x/v2/",
                 "sra_ws_endpoint": "wss://sra.bamboorelay.com/0x/v2/ws",
                 "static_order_fields": {
-                    "fee_recipient_addresses": ["0x5dd835a893734b8d556eccf87800b76dda5aedc5"]
+                    "fee_recipient_addresses": [
+                        "0x5dd835a893734b8d556eccf87800b76dda5aedc5"
+                    ]
                 }
             }
         ]
@@ -295,19 +323,25 @@
                 "networkId": 1,
                 "sra_http_endpoint": "https://api-v2.ledgerdex.com/sra/v2/",
                 "static_order_fields": {
-                    "fee_recipient_addresses": ["0x4524baa98f9a3b9dec57caae7633936ef96bd708"]
+                    "fee_recipient_addresses": [
+                        "0x4524baa98f9a3b9dec57caae7633936ef96bd708"
+                    ]
                 }
             },
             {
                 "networkId": 3,
                 "static_order_fields": {
-                    "fee_recipient_addresses": ["0x4524baa98f9a3b9dec57caae7633936ef96bd708"]
+                    "fee_recipient_addresses": [
+                        "0x4524baa98f9a3b9dec57caae7633936ef96bd708"
+                    ]
                 }
             },
             {
                 "networkId": 42,
                 "static_order_fields": {
-                    "fee_recipient_addresses": ["0x4524baa98f9a3b9dec57caae7633936ef96bd708"]
+                    "fee_recipient_addresses": [
+                        "0x4524baa98f9a3b9dec57caae7633936ef96bd708"
+                    ]
                 }
             }
         ]
@@ -334,7 +368,9 @@
                 "networkId": 1,
                 "sra_http_endpoint": "https://3xchange.io/relayer/v2",
                 "static_order_fields": {
-                    "fee_recipient_addresses": ["0xab8199eba802e7e6634d4389bf23999b7ae6b253"]
+                    "fee_recipient_addresses": [
+                        "0xab8199eba802e7e6634d4389bf23999b7ae6b253"
+                    ]
                 }
             }
         ]
@@ -349,7 +385,9 @@
             {
                 "networkId": 1,
                 "static_order_fields": {
-                    "fee_recipient_addresses": ["0x66a836664adc7c525c0cc4527dee8619d4faf669"]
+                    "fee_recipient_addresses": [
+                        "0x66a836664adc7c525c0cc4527dee8619d4faf669"
+                    ]
                 }
             },
             {
@@ -368,7 +406,9 @@
                 "networkId": 1,
                 "sra_http_endpoint": "https://api.lakeproject.co/",
                 "static_order_fields": {
-                    "fee_recipient_addresses": ["0x5620413261751d93978c6e752f6c351d10e75238"]
+                    "fee_recipient_addresses": [
+                        "0x5620413261751d93978c6e752f6c351d10e75238"
+                    ]
                 }
             },
             {
@@ -385,7 +425,9 @@
             {
                 "networkId": 1,
                 "static_order_fields": {
-                    "fee_recipient_addresses": ["0x4a821aa1affbf7ee89a245bf750d1d7374e77409"]
+                    "fee_recipient_addresses": [
+                        "0x4a821aa1affbf7ee89a245bf750d1d7374e77409"
+                    ]
                 }
             }
         ]
@@ -399,7 +441,9 @@
             {
                 "networkId": 1,
                 "static_order_fields": {
-                    "fee_recipient_addresses": ["0x013ec57d1237e7727f818b1a35e3506f754304e4"]
+                    "fee_recipient_addresses": [
+                        "0x013ec57d1237e7727f818b1a35e3506f754304e4"
+                    ]
                 }
             }
         ]
@@ -413,7 +457,27 @@
             {
                 "networkId": 1,
                 "static_order_fields": {
-                    "taker_addresses": ["0xdf1bc6498338135de5ffdbcb98817d81e2665912"]
+                    "taker_addresses": [
+                        "0xdf1bc6498338135de5ffdbcb98817d81e2665912"
+                    ]
+                }
+            }
+        ]
+    },
+    "a82a3f75-ece8-4a3a-8a4f-66d322be14a7": {
+        "name": "Emoon",
+        "homepage_url": "https://www.emoon.io",
+        "app_url": "https://www.emoon.io",
+        "header_img": "emoon.png",
+        "logo_img": "emoon.png",
+        "networks": [
+            {
+                "networkId": 1,
+                "sra_http_endpoint": "https://sra.emoon.io/v2/",
+                "static_order_fields": {
+                    "fee_recipient_addresses": [
+                        "0xdcae967431fb51aa7453ec6c06fa544c25e0f1ff"
+                    ]
                 }
             }
         ]
