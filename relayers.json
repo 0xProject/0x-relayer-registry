@@ -478,6 +478,22 @@
                     "fee_recipient_addresses": [
                         "0xdcae967431fb51aa7453ec6c06fa544c25e0f1ff"
                     ]
+                  }
+                }
+              ]
+    },
+    "b082dfda-04af-4a58-82e5-ddffe425ce67": {
+        "name": "MetaMorph.pro",
+        "homepage_url": "https://metamorph.pro",
+        "app_url": "https://app.metamorph.pro",
+        "header_img": "metamorph.png",
+        "logo_img": "metamorph.png",
+        "networks": [
+            {
+                "networkId": 1,
+                "sra_http_endpoint": "https://api.metamorph.pro/v2/",
+                "static_order_fields": {
+                    "fee_recipient_addresses": ["0xa9274fda6d91a063f6aa0cfb172d6eb3b61ecf89"]
                 }
             }
         ]
