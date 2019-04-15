@@ -497,5 +497,18 @@
                 }
             }
         ]
+    },
+    "95344297-5774-461e-bd47-648d00930b3f": {
+        "name" : "Ethfinex",
+        "homepage_url": "https://trustless.ethfinex.com/",
+        "app_url": "https://trustless.ethfinex.com/",
+        "networks" : [
+            {
+                "networkId" : 1,
+                "static_order_fields" : {
+                    "fee_recipient_addresses": ["0x61b9898c9b60a159fc91ae8026563cd226b7a0c1"]
+                }
+            }
+        ]
     }
 }
