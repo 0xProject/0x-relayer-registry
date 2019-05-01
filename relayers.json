@@ -510,5 +510,18 @@
                 }
             }
         ]
+    },
+    "2852326a-3c8d-40f3-98ce-e82038b68b47": {
+      "name" : "Fordex",
+      "homepage_url": "http://fordex.co/",
+      "app_url": "https://alpha.fordex.co",
+      "networks" : [
+          {
+              "networkId" : 1,
+              "static_order_fields" : {
+                  "fee_recipient_addresses": ["0x853da5cecc1ea601ab978c2001565a0377a7dca6"]
+              }
+          }
+      ]
     }
 }
