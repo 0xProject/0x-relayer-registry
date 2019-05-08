@@ -186,7 +186,8 @@
                 "networkId": 1,
                 "static_order_fields": {
                     "fee_recipient_addresses": [
-                        "0x6f7ae872e995f98fcd2a7d3ba17b7ddfb884305f"
+                        "0x6f7ae872e995f98fcd2a7d3ba17b7ddfb884305f",
+                        "0xb9e29984fe50602e7a619662ebed4f90d93824c7"
                     ],
                     "taker_addresses": [
                         "0x6af9ec649821c2213dc488c36e3e3e999c3d7934"
