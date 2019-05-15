@@ -236,7 +236,7 @@
                 "sra_ws_endpoint": "wss://sra.bamboorelay.com/0x/v2/ws",
                 "static_order_fields": {
                     "fee_recipient_addresses": [
-                        "0x5dd835a893734b8d556eccf87800b76dda5aedc5"
+                        "0xc898fbee1cc94c0ff077faa5449915a506eff384"
                     ]
                 }
             },
@@ -246,7 +246,7 @@
                 "sra_ws_endpoint": "wss://sra.bamboorelay.com/0x/v2/ws",
                 "static_order_fields": {
                     "fee_recipient_addresses": [
-                        "0x5dd835a893734b8d556eccf87800b76dda5aedc5"
+                        "0xc898fbee1cc94c0ff077faa5449915a506eff384"
                     ]
                 }
             },
@@ -256,7 +256,7 @@
                 "sra_ws_endpoint": "wss://sra.bamboorelay.com/0x/v2/ws",
                 "static_order_fields": {
                     "fee_recipient_addresses": [
-                        "0x5dd835a893734b8d556eccf87800b76dda5aedc5"
+                        "0xc898fbee1cc94c0ff077faa5449915a506eff384"
                     ]
                 }
             },
@@ -266,7 +266,7 @@
                 "sra_ws_endpoint": "wss://sra.bamboorelay.com/0x/v2/ws",
                 "static_order_fields": {
                     "fee_recipient_addresses": [
-                        "0x5dd835a893734b8d556eccf87800b76dda5aedc5"
+                        "0xc898fbee1cc94c0ff077faa5449915a506eff384"
                     ]
                 }
             }
