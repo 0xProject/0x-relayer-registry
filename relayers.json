@@ -516,10 +516,10 @@
         ]
     },
     "2852326a-3c8d-40f3-98ce-e82038b68b47": {
-      "name" : "Fordex",
-      "homepage_url": "http://fordex.co/",
-      "app_url": "https://alpha.fordex.co",
-      "networks" : [
+        "name" : "Fordex",
+        "homepage_url": "http://fordex.co/",
+        "app_url": "https://alpha.fordex.co",
+        "networks" : [
           {
               "networkId" : 1,
               "static_order_fields" : {
@@ -527,5 +527,24 @@
               }
           }
       ]
+    },
+    "fb34b4cc-309a-430c-bd88-7b485d153f4b": {
+        "name" : "EtherBlockchain.io",
+        "homepage_url": "https://www.etherblockchain.io/",
+        "app_url": "https://www.etherblockchain.io/exchange/",
+        "header_img": "etherblockchain.png",
+        "logo_img": "etherblockchain.png",
+        "networks": [
+            {
+                "networkId": 1,
+                "sra_http_endpoint": "https://api.etherblockchain.io/api/v2/eth/",
+                "sra_ws_endpoint": "wss://api.etherblockchain.io/api/v2/eth/live",
+                "static_order_fields": {
+                    "fee_recipient_addresses": [
+                        "0x2a5f5f36c20d7e56358db78bbfac0bace25c1198"
+                    ]
+                }
+            }
+        ]
     }
 }
