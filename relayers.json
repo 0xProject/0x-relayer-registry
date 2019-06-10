@@ -546,5 +546,20 @@
                 }
             }
         ]
+    },
+    "5533ff22-5a3e-440c-9612-37a3323eb94e" : {
+        "name" : "MARKET Protocol Exchange",
+        "homepage_url" : "https://mpexchange.io/",
+        "app_url" : "https://mpexchange.io/exchange",
+        "networks": [
+            {
+                "networkId": 1,
+                "static_order_fields": {
+                    "fee_recipient_addresses": [
+                        "0x8752d14a086cee9b8c108611ba9aefe04042c9f9"
+                    ]
+                }
+            }
+        ]
     }
 }
