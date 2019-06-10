@@ -551,6 +551,8 @@
         "name" : "MARKET Protocol Exchange",
         "homepage_url" : "https://mpexchange.io/",
         "app_url" : "https://mpexchange.io/exchange",
+        "header_img": "mpx.png",
+        "logo_img": "mpx.png",
         "networks": [
             {
                 "networkId": 1,
