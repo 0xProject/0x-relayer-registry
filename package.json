@@ -1,12 +1,13 @@
 {
-    "private" : true,
+    "private": true,
     "name": "0x-relayer-registry",
     "version": "0.0.1",
     "description": "Registry of relayers building on 0x",
     "scripts": {
         "build": "tsc",
         "lint": "tslint --project . 'test/**/*.ts'",
-        "test": "yarn build; mocha ./lib/test/*_test.js"
+        "test": "yarn build; mocha ./lib/test/*_test.js",
+        "generate:uuid": "uuid"
     },
     "repository": {
         "type": "git",
@@ -20,12 +21,17 @@
     "homepage": "https://github.com/0xProject/0x-relayer-registry/README.md",
     "devDependencies": {
         "@0xproject/json-schemas": "^0.7.14",
+        "@types/lodash": "4.14.104",
         "@types/mocha": "^5.0.0",
+        "@types/uuid-validate": "^0.0.0",
         "chai": "^4.1.2",
         "copyfiles": "^2.0.0",
         "dirty-chai": "^2.0.1",
+        "lodash": "^4.17.5",
         "mocha": "^5.0.4",
         "tslint": "5.8.0",
-        "typescript": "2.7.1"
+        "typescript": "2.7.1",
+        "uuid": "^3.3.2",
+        "uuid-validate": "^0.0.3"
     }
 }

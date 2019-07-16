@@ -1,184 +1,567 @@
-[
-    {
+{
+    "e8d27d8d-ddf6-48b1-9663-60b0a3ddc716": {
         "name": "Radar Relay",
         "homepage_url": "https://radarrelay.com",
         "app_url": "https://app.radarrelay.com",
+        "header_img": "radarrelay.png",
+        "logo_img": "radarrelay.png",
         "networks": [
             {
                 "networkId": 1,
-                "sra_http_endpoint": "https://api.radarrelay.com/0x/v0/",
-                "sra_ws_endpoint": "wss://ws.radarrelay.com/0x/v0/ws/",
+                "sra_http_endpoint": "https://api.radarrelay.com/0x/v2/",
+                "sra_ws_endpoint": "wss://ws.radarrelay.com/0x/v2",
                 "static_order_fields": {
-                    "fee_recipient_addresses": ["0xa258b39954cef5cb142fd567a46cddb31a670124"]
+                    "fee_recipient_addresses": [
+                        "0xa258b39954cef5cb142fd567a46cddb31a670124"
+                    ]
                 }
             },
             {
                 "networkId": 42,
-                "sra_http_endpoint": "https://api.kovan.radarrelay.com/0x/v0/",
-                "sra_ws_endpoint": "wss://api.kovan.radarrelay.com/0x/v0/ws/"
+                "sra_http_endpoint": "https://api.kovan.radarrelay.com/0x/v2/",
+                "sra_ws_endpoint": "wss://api.kovan.radarrelay.com/0x/v2"
             }
         ]
     },
-    {
+    "62991862-6300-496c-a2b0-c554b6c20468": {
         "name": "ERC dEX",
         "homepage_url": "https://ercdex.com",
         "app_url": "https://app.ercdex.com/",
+        "header_img": "ercdex.png",
+        "logo_img": "ercdex.png",
         "networks": [
             {
                 "networkId": 1,
-                "sra_http_endpoint": "https://api.ercdex.com/api/standard/1/v0/",
-                "sra_ws_endpoint": "wss://api.ercdex.com/",
+                "sra_http_endpoint": "https://app.ercdex.com/api/v2/",
+                "sra_ws_endpoint": "wss://app.ercdex.com/ws/v2",
                 "static_order_fields": {
-                    "fee_recipient_addresses": ["0x173a2467cece1f752eb8416e337d0f0b58cad795"]
+                    "fee_recipient_addresses": [
+                        "0x58a5959a6c528c5d5e03f7b9e5102350e24005f1",
+                        "0x7df569a165bee41ca74374c76bd888ea02dcc4a8",
+                        "0xa71deef328b2c40d0e6525cd248ae749e9208dbb",
+                        "0x3d974ce554fec1acd8d034f13b6640b300689a37",
+                        "0xbd069e7ad0b7366ed1f0559dd8fe3e8efc0c4a72",
+                        "0x4411c446756f8ed22343e8fbe8d24607027daffd",
+                        "0xee2d43b8e4b57477acc2f4def265fe2887865ac0",
+                        "0x5bf2c11b0aa0c752c6de6fed48dd56fed2a4286d",
+                        "0x1dd43bbe2264234bccfbb88aadbde331d87719ee",
+                        "0x8bf0785306eb675e38b742f59a7fcf05fccdf2b7",
+                        "0x1956f5afa5d21000145e6cd2fa8ce3f52fa40875",
+                        "0xa5b8d094f8364a9771c7a2287ee13efa08f847a4",
+                        "0xc95bf3d3b4d6619119f3a8e29ec1d73ee801b9df",
+                        "0x28f5cf7044f509af67f473c18b1f5f4f97fb4ce9",
+                        "0x3b4ce2ea700ff327c3b4fe624f328c4106fd2885",
+                        "0x3fa5f23d42847e49d242496ffe2a3c8fda66706c",
+                        "0xd592cfa56f4c443fb27008329d67ed7d4edb59c0",
+                        "0x173a2467cece1f752eb8416e337d0f0b58cad795"
+                    ]
                 }
             },
             {
                 "networkId": 42,
-                "sra_http_endpoint": "https://api.ercdex.com/api/standard/42/v0/"
+                "sra_http_endpoint": "https://app.ercdex.com/api/v2/"
             }
         ]
     },
-    {
+    "e7714eed-de97-49dc-a054-36f8c31a89f6": {
         "name": "OpenRelay",
         "homepage_url": "https://openrelay.xyz/",
         "logo_img": "openrelay.png",
+        "header_img": "openrelay.png",
         "networks": [
             {
                 "networkId": 1,
-                "sra_http_endpoint": "https://api.openrelay.xyz/v0/",
+                "sra_http_endpoint": "https://api.openrelay.xyz/v2/",
                 "static_order_fields": {
-                    "fee_recipient_addresses": ["0xc22d5b2951db72b44cfb8089bb8cd374a3c354ea"]
+                    "fee_recipient_addresses": [
+                        "0xc22d5b2951db72b44cfb8089bb8cd374a3c354ea",
+                        "0x89db81c2dc4adaf10a93705b69289d479d576635"
+                    ]
                 }
             },
             {
                 "networkId": 3,
-                "sra_http_endpoint": "https://api.openrelay.xyz/v0/",
+                "sra_http_endpoint": "https://api.openrelay.xyz/v2/",
                 "static_order_fields": {
-                    "fee_recipient_addresses": ["0xc22d5b2951db72b44cfb8089bb8cd374a3c354ea"]
+                    "fee_recipient_addresses": [
+                        "0xc22d5b2951db72b44cfb8089bb8cd374a3c354ea"
+                    ]
+                }
+            },
+            {
+                "networkId": 42,
+                "sra_http_endpoint": "https://api.openrelay.xyz/v2/",
+                "static_order_fields": {
+                    "fee_recipient_addresses": [
+                        "0xc22d5b2951db72b44cfb8089bb8cd374a3c354ea"
+                    ]
                 }
             }
         ]
     },
-    {
-        "name": "The Ocean X",
-        "homepage_url": "https://theoceanx.com/",
+    "018cd091-1c5c-4c4b-8310-da86951c41af": {
+        "name": "The Ocean",
+        "homepage_url": "https://theocean.trade/",
         "logo_img": "TheOceanX.png",
+        "header_img": "theoceanx.png",
         "networks": [
             {
-                "networkId": 42,
-                "sra_http_endpoint": "https://kovan.theoceanx.com/api/v0/"
+                "networkId": 42
+            },
+            {
+                "networkId": 1,
+                "static_order_fields": {
+                    "fee_recipient_addresses": [
+                        "0x7219612be7036d1bfa933e16ca1246008f38c5fe"
+                    ]
+                }
             }
         ]
     },
-    {
+    "69d469d2-51ef-4922-8547-9ee100744ad0": {
         "name": "Amadeus Relay",
         "homepage_url": "https://amadeusrelay.org/",
         "logo_img": "amadeus_relay.png",
+        "header_img": "amaedeus.png",
         "networks": [
             {
                 "networkId": 42,
-                "sra_http_endpoint": "https://api.amadeusrelay.org/api/v0/",
                 "static_order_fields": {
-                    "fee_recipient_addresses": ["0xf14958eca9f5b341f74916aacfb6e3d2fb9a4a15"]
+                    "fee_recipient_addresses": [
+                        "0xf14958eca9f5b341f74916aacfb6e3d2fb9a4a15"
+                    ]
+                }
+            },
+            {
+                "networkId": 1,
+                "static_order_fields": {
+                    "fee_recipient_addresses": [
+                        "0x0e8ba001a821f3ce0734763d008c9d7c957f5852"
+                    ]
                 }
             }
         ]
     },
-    {
+    "c7cb913a-1266-4f1b-9307-8e3b469801df": {
         "name": "Token Jar",
         "homepage_url": "https://tokenjar.io/",
+        "header_img": "tokenjar.png",
+        "logo_img": "tokenjar.png",
         "networks": [
             {
                 "networkId": 1,
                 "static_order_fields": {
-                    "fee_recipient_addresses" : ["0x5e150a33ffa97a8d22f59c77ae5487b089ef62e9"]
+                    "fee_recipient_addresses": [
+                        "0x5e150a33ffa97a8d22f59c77ae5487b089ef62e9"
+                    ]
                 }
             }
         ]
     },
-    {
+    "41aa62be-9ca3-40fd-9047-b43c94af2b34": {
         "name": "Paradex",
         "homepage_url": "https://paradex.io/",
         "app_url": "https://app.paradex.io/",
+        "header_img": "paradex.png",
+        "logo_img": "paradex.png",
         "networks": [
             {
                 "networkId": 1,
                 "static_order_fields": {
-                    "taker_addresses": ["0x4969358e80cdc3d74477d7447bffa3b2e2acbe92"]
+                    "taker_addresses": [
+                        "0xd2045edc40199019e221d71c0913343f7908d0d5",
+                        "0x4969358e80cdc3d74477d7447bffa3b2e2acbe92"
+                    ]
                 }
             }
         ]
     },
-    {
-        "name": "IDT Exchange",
-        "homepage_url": "https://www.idtexchange.com/",
-        "app_url": "https://trade.idtexchange.com/",
-        "networks": [
-            {
-                "networkId": 1
-            }
-        ]
-    },
-    {
-        "name": "DDEX",
-        "homepage_url": "https://ddex.io/",
-        "app_url": "https://ddex.io/trade",
+    "99178f4a-6ab4-487a-a9c5-ca3a08cf95dd": {
+        "name": "Tokenlon",
+        "homepage_url": "https://tokenlon.token.im/",
+        "header_img": "tokenlon.png",
+        "logo_img": "tokenlon.png",
         "networks": [
             {
                 "networkId": 1,
                 "static_order_fields": {
-                    "fee_recipient_addresses": ["0xe269e891a2ec8585a378882ffa531141205e92e9"],
-                    "taker_addresses": ["0xe269e891a2ec8585a378882ffa531141205e92e9"]
+                    "fee_recipient_addresses": [
+                        "0x6f7ae872e995f98fcd2a7d3ba17b7ddfb884305f",
+                        "0xb9e29984fe50602e7a619662ebed4f90d93824c7"
+                    ],
+                    "taker_addresses": [
+                        "0x6af9ec649821c2213dc488c36e3e3e999c3d7934"
+                    ]
                 }
-            },
-            {
-                "networkId": 42
             }
         ]
     },
-    {
-        "name": "Decent Exchange",
-        "homepage_url": "https://decent.exchange/",
-        "app_url" : "https://decent.exchange/",
-        "networks": [
-            {
-                "networkId": 1
-            },
-            {
-                "networkId": 42
-            }
-        ]
-    },
-    {
-        "name" : "Tokenlon",
-        "homepage_url" : "https://tokenlon.token.im/",
-        "networks" : [
-            {
-                "networkId": 1,
-                "static_order_fields" : {
-                    "fee_recipient_addresses" : ["0x6f7ae872e995f98fcd2a7d3ba17b7ddfb884305f"]
-                 }
-            }
-        ]
-     },
-     {
+    "b80cdd15-a2e1-414d-9a54-fcaeedd6c78d": {
         "name": "Shark Relay",
         "homepage_url": "https://sharkrelay.com/",
         "app_url": "https://app.sharkrelay.com/",
+        "header_img": "sharkrelay.png",
+        "logo_img": "shark.png",
         "networks": [
             {
                 "networkId": 1,
-                "sra_http_endpoint": "https://api.sharkrelay.com/api/v0/",
+                "sra_http_endpoint": "https://api.sharkrelay.com/sra/v2/",
+                "sra_ws_endpoint": "wss://app.sharkrelay.com/v2/ws",
                 "static_order_fields": {
-                    "fee_recipient_addresses": ["0x55890b06f0877a01bb5349d93b202961f8e27a9b"]
+                    "fee_recipient_addresses": [
+                        "0x55890b06f0877a01bb5349d93b202961f8e27a9b"
+                    ]
                 }
             },
             {
                 "networkId": 42,
                 "static_order_fields": {
-                    "fee_recipient_addresses": ["0x2e5a815fb70ae9e27188d9a4e72965e55b6f77b2"]
+                    "fee_recipient_addresses": [
+                        "0x2e5a815fb70ae9e27188d9a4e72965e55b6f77b2"
+                    ]
+                }
+            }
+        ]
+    },
+    "7dd82cad-24bd-457f-adb5-962549d4c1f5": {
+        "name": "Bamboo Relay",
+        "homepage_url": "https://bamboorelay.com/",
+        "app_url": "https://bamboorelay.com/",
+        "header_img": "bamboorelay.png",
+        "logo_img": "bamboorelay.png",
+        "networks": [
+            {
+                "networkId": 1,
+                "sra_http_endpoint": "https://sra.bamboorelay.com/0x/v2/",
+                "sra_ws_endpoint": "wss://sra.bamboorelay.com/0x/v2/ws",
+                "static_order_fields": {
+                    "fee_recipient_addresses": [
+                        "0xc898fbee1cc94c0ff077faa5449915a506eff384"
+                    ]
+                }
+            },
+            {
+                "networkId": 3,
+                "sra_http_endpoint": "https://sra.bamboorelay.com/0x/v2/",
+                "sra_ws_endpoint": "wss://sra.bamboorelay.com/0x/v2/ws",
+                "static_order_fields": {
+                    "fee_recipient_addresses": [
+                        "0xc898fbee1cc94c0ff077faa5449915a506eff384"
+                    ]
+                }
+            },
+            {
+                "networkId": 4,
+                "sra_http_endpoint": "https://sra.bamboorelay.com/0x/v2/",
+                "sra_ws_endpoint": "wss://sra.bamboorelay.com/0x/v2/ws",
+                "static_order_fields": {
+                    "fee_recipient_addresses": [
+                        "0xc898fbee1cc94c0ff077faa5449915a506eff384"
+                    ]
+                }
+            },
+            {
+                "networkId": 42,
+                "sra_http_endpoint": "https://sra.bamboorelay.com/0x/v2/",
+                "sra_ws_endpoint": "wss://sra.bamboorelay.com/0x/v2/ws",
+                "static_order_fields": {
+                    "fee_recipient_addresses": [
+                        "0xc898fbee1cc94c0ff077faa5449915a506eff384"
+                    ]
+                }
+            }
+        ]
+    },
+    "309776c3-692d-44de-9454-76a075ca4cbd": {
+        "name": "Instex",
+        "homepage_url": "https://instex.io/",
+        "app_url": "https://app.instex.io/",
+        "header_img": "instex.png",
+        "logo_img": "instex.png",
+        "networks": [
+            {
+                "networkId": 1
+            },
+            {
+                "networkId": 42
+            }
+        ]
+    },
+    "636fe09e-c5c9-446b-9478-91cdc5d946bf": {
+        "name": "StarBitEx",
+        "homepage_url": "https://www.starbitex.com/",
+        "app_url": "https://www.starbitex.com/Trade",
+        "header_img": "starbitex.png",
+        "logo_img": "starbitex.png",
+        "networks": [
+            {
+                "networkId": 1,
+                "static_order_fields": {
+                    "fee_recipient_addresses": [
+                        "0x8124071f810d533ff63de61d0c98db99eeb99d64",
+                        "0xc370d2a5920344aa6b7d8d11250e3e861434cbdd"
+                    ]
+                }
+            }
+        ]
+    },
+    "84a305a9-ac90-4906-b740-3e75a4578690": {
+        "name": "Mobidex",
+        "homepage_url": "https://mobidex.io/",
+        "header_img": "mobidex.png",
+        "logo_img": "mobidex.png",
+        "networks": [
+            {
+                "networkId": 42
+            }
+        ]
+    },
+    "79d223be-d5ff-4d7a-847e-f75d8047091e": {
+        "name": "LedgerDex",
+        "homepage_url": "https://www.ledgerdex.com/",
+        "app_url": "https://app.ledgerdex.com/",
+        "header_img": "ledgerdex.png",
+        "logo_img": "ledgerdex.png",
+        "networks": [
+            {
+                "networkId": 1,
+                "sra_http_endpoint": "https://api-v2.ledgerdex.com/sra/v2/",
+                "static_order_fields": {
+                    "fee_recipient_addresses": [
+                        "0x4524baa98f9a3b9dec57caae7633936ef96bd708"
+                    ]
+                }
+            },
+            {
+                "networkId": 3,
+                "static_order_fields": {
+                    "fee_recipient_addresses": [
+                        "0x4524baa98f9a3b9dec57caae7633936ef96bd708"
+                    ]
+                }
+            },
+            {
+                "networkId": 42,
+                "static_order_fields": {
+                    "fee_recipient_addresses": [
+                        "0x4524baa98f9a3b9dec57caae7633936ef96bd708"
+                    ]
+                }
+            }
+        ]
+    },
+    "c65147ee-b1e7-4ca6-85eb-6264d3a07b6d": {
+        "name": "Bloqboard",
+        "homepage_url": "https://bloqboard.com/",
+        "app_url": "https://app.bloqboard.com/",
+        "header_img": "bloqboard.png",
+        "logo_img": "bloqboard.png",
+        "networks": [
+            {
+                "networkId": 42
+            }
+        ]
+    },
+    "40be486b-715b-4726-9108-a94fbb8db2d2": {
+        "name": "3xchange.io",
+        "homepage_url": "https://3xchange.io/",
+        "header_img": "3xchange.png",
+        "logo_img": "3xchange.png",
+        "networks": [
+            {
+                "networkId": 1,
+                "sra_http_endpoint": "https://3xchange.io/relayer/v2",
+                "static_order_fields": {
+                    "fee_recipient_addresses": [
+                        "0xab8199eba802e7e6634d4389bf23999b7ae6b253"
+                    ]
+                }
+            }
+        ]
+    },
+    "bd0cc35b-6ec0-40c4-8d60-af85ce133d03": {
+        "name": "BoxSwap",
+        "homepage_url": "https://boxswap.io/",
+        "app_url": "https://boxswap.io/",
+        "header_img": "boxswap.png",
+        "logo_img": "boxswap.png",
+        "networks": [
+            {
+                "networkId": 1,
+                "static_order_fields": {
+                    "fee_recipient_addresses": [
+                        "0x66a836664adc7c525c0cc4527dee8619d4faf669"
+                    ]
+                }
+            },
+            {
+                "networkId": 42
+            }
+        ]
+    },
+    "438cc998-d21d-4e4d-84e9-ce37e96c6114": {
+        "name": "Lake Project",
+        "homepage_url": "https://lakeproject.co/",
+        "app_url": "https://trade.lakeproject.co",
+        "logo_img": "lakeproject.png",
+        "header_img": "laketrade.png",
+        "networks": [
+            {
+                "networkId": 1,
+                "sra_http_endpoint": "https://api.lakeproject.co/",
+                "static_order_fields": {
+                    "fee_recipient_addresses": [
+                        "0x5620413261751d93978c6e752f6c351d10e75238"
+                    ]
+                }
+            },
+            {
+                "networkId": 42
+            }
+        ]
+    },
+    "5a86e69e-f340-4229-9eca-e1a4cae79ce2": {
+        "name": "Tokenmom",
+        "homepage_url": "https://tokenmom.com/",
+        "app_url": "https://tokenmom.com/exchange/TM-WETH",
+        "logo_img": "tokenmom.png",
+        "networks": [
+            {
+                "networkId": 1,
+                "static_order_fields": {
+                    "fee_recipient_addresses": [
+                        "0x4a821aa1affbf7ee89a245bf750d1d7374e77409"
+                    ]
+                }
+            }
+        ]
+    },
+    "6e870497-2c0e-432f-bd9e-1171a80f1f0e": {
+        "name": "GUDecks",
+        "homepage_url": "https://gudecks.com/",
+        "app_url": "https://gudecks.com/passes",
+        "logo_img": "gudecks.png",
+        "networks": [
+            {
+                "networkId": 1,
+                "static_order_fields": {
+                    "fee_recipient_addresses": [
+                        "0x013ec57d1237e7727f818b1a35e3506f754304e4"
+                    ]
+                }
+            }
+        ]
+    },
+    "3119f6e5-a629-4269-83e4-63a3e6ab3bee": {
+        "name": "Veil",
+        "homepage_url": "https://veil.market/",
+        "app_url": "https://app.veil.co/",
+        "logo_img": "veil.png",
+        "networks": [
+            {
+                "networkId": 1,
+                "static_order_fields": {
+                    "taker_addresses": [
+                        "0xdf1bc6498338135de5ffdbcb98817d81e2665912"
+                    ]
+                }
+            }
+        ]
+    },
+    "a82a3f75-ece8-4a3a-8a4f-66d322be14a7": {
+        "name": "Emoon",
+        "homepage_url": "https://www.emoon.io",
+        "app_url": "https://www.emoon.io",
+        "header_img": "emoon.png",
+        "logo_img": "emoon.png",
+        "networks": [
+            {
+                "networkId": 1,
+                "sra_http_endpoint": "https://sra.emoon.io/v2/",
+                "static_order_fields": {
+                    "fee_recipient_addresses": [
+                        "0xdcae967431fb51aa7453ec6c06fa544c25e0f1ff"
+                    ]
+                  }
+                }
+              ]
+    },
+    "b082dfda-04af-4a58-82e5-ddffe425ce67": {
+        "name": "MetaMorph.pro",
+        "homepage_url": "https://metamorph.pro",
+        "app_url": "https://app.metamorph.pro",
+        "header_img": "metamorph.png",
+        "logo_img": "metamorph.png",
+        "networks": [
+            {
+                "networkId": 1,
+                "sra_http_endpoint": "https://api.metamorph.pro/v2/",
+                "static_order_fields": {
+                    "fee_recipient_addresses": ["0xa9274fda6d91a063f6aa0cfb172d6eb3b61ecf89"]
+                }
+            }
+        ]
+    },
+    "95344297-5774-461e-bd47-648d00930b3f": {
+        "name" : "Ethfinex",
+        "homepage_url": "https://trustless.ethfinex.com/",
+        "app_url": "https://trustless.ethfinex.com/",
+        "networks" : [
+            {
+                "networkId" : 1,
+                "static_order_fields" : {
+                    "fee_recipient_addresses": ["0x61b9898c9b60a159fc91ae8026563cd226b7a0c1"]
+                }
+            }
+        ]
+    },
+    "2852326a-3c8d-40f3-98ce-e82038b68b47": {
+        "name" : "Fordex",
+        "homepage_url": "http://fordex.co/",
+        "app_url": "https://alpha.fordex.co",
+        "networks" : [
+          {
+              "networkId" : 1,
+              "static_order_fields" : {
+                  "fee_recipient_addresses": ["0x853da5cecc1ea601ab978c2001565a0377a7dca6"]
+              }
+          }
+      ]
+    },
+    "fb34b4cc-309a-430c-bd88-7b485d153f4b": {
+        "name" : "EtherBlockchain.io",
+        "homepage_url": "https://www.etherblockchain.io/",
+        "app_url": "https://www.etherblockchain.io/exchange/",
+        "header_img": "etherblockchain.png",
+        "logo_img": "etherblockchain.png",
+        "networks": [
+            {
+                "networkId": 1,
+                "sra_http_endpoint": "https://api.etherblockchain.io/api/v2/eth/",
+                "sra_ws_endpoint": "wss://api.etherblockchain.io/api/v2/eth/live",
+                "static_order_fields": {
+                    "fee_recipient_addresses": [
+                        "0x2a5f5f36c20d7e56358db78bbfac0bace25c1198"
+                    ]
+                }
+            }
+        ]
+    },
+    "5533ff22-5a3e-440c-9612-37a3323eb94e" : {
+        "name" : "MARKET Protocol Exchange",
+        "homepage_url" : "https://mpexchange.io/",
+        "app_url" : "https://mpexchange.io/exchange",
+        "header_img": "mpx.png",
+        "logo_img": "mpx.png",
+        "networks": [
+            {
+                "networkId": 1,
+                "static_order_fields": {
+                    "fee_recipient_addresses": [
+                        "0x8752d14a086cee9b8c108611ba9aefe04042c9f9"
+                    ]
                 }
             }
         ]
     }
-]
+}
