@@ -429,7 +429,7 @@
             {
                 "networkId": 1,
                 "static_order_fields": {
-                    "fee_recipient_addresses": [
+                    "taker_addresses": [
                         "0x4a821aa1affbf7ee89a245bf750d1d7374e77409"
                     ]
                 }
