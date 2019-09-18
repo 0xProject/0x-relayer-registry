@@ -439,14 +439,14 @@
     "6e870497-2c0e-432f-bd9e-1171a80f1f0e": {
         "name": "GUDecks",
         "homepage_url": "https://gudecks.com/",
-        "app_url": "https://gudecks.com/passes",
+        "app_url": "https://gudecks.com/marketplace/passes",
         "logo_img": "gudecks.png",
         "networks": [
             {
                 "networkId": 1,
                 "static_order_fields": {
                     "fee_recipient_addresses": [
-                        "0x013ec57d1237e7727f818b1a35e3506f754304e4"
+                        "0xd9c3ed92520a2f3076a9bd5ea9d4a2c2a0cf6457"
                     ]
                 }
             }
@@ -559,6 +559,23 @@
                 "static_order_fields": {
                     "fee_recipient_addresses": [
                         "0x8752d14a086cee9b8c108611ba9aefe04042c9f9"
+                    ]
+                }
+            }
+        ]
+    },
+    "35de33ed-78d4-4b61-8178-d3aa262ede61" : {
+        "name" : "TokenTrove",
+        "homepage_url" : "https://tokentrove.io",
+        "app_url" : "https://tokentrove.io",
+        "header_img": "tokentrove.png",
+        "logo_img": "tokentrove.png",
+        "networks": [
+            {
+                "networkId": 1,
+                "static_order_fields": {
+                    "fee_recipient_addresses": [
+                        "0x0d056bb17ad4df5593b93a1efc29cb35ba4aa38d"
                     ]
                 }
             }
