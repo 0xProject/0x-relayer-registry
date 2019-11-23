@@ -580,5 +580,20 @@
                 }
             }
         ]
+    },
+    "d51bf949-5876-43f4-b212-778c5a557390": {
+        "name": "Gods Unchained",
+        "homepage_url" : "https://godsunchained.com",
+        "app_url" : "https://godsunchained.com/market",
+        "header_img": "gu-header.png",
+        "logo_img": "gu-logo.png",
+        "networks": [
+            {
+                "networkId": 1,
+                "static_order_fields": {
+                    "sender_addresses": ["0xb04239b53806ab31141e6cd47c63fb3480cac908"]
+                }
+            }
+        ]
     }
 }
