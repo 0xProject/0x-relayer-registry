@@ -595,5 +595,29 @@
                 }
             }
         ]
+    },
+    "510a44d5-8b99-48cf-a423-59bf4aa7e0c8": {
+        "name": "0x API",
+        "homepage_url" : "https://0x.org/api",
+        "app_url" : "https://0x.org/api",
+        "header_img": "0x-API.png",
+        "logo_img": "0x-API.png",
+        "networks": [
+            {
+                "networkId": 1,
+                "sra_http_endpoint": "https://api.0x.org/sra/v3",
+                "sra_ws_endpoint": "wss://api.0x.org/sra/v3",
+                "static_order_fields": {
+                    "fee_recipient_addresses": [
+                        "0x1000000000000000000000000000000000000011"
+                    ]
+                }
+            },
+            {
+                "networkId": 42,
+                "sra_http_endpoint": "https://kovan.api.0x.org/sra/v3",
+                "sra_ws_endpoint": "wss://api.0x.org/sra/v3"
+            }
+        ]
     }
 }
