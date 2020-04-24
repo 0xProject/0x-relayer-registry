@@ -190,7 +190,8 @@
                         "0xb9e29984fe50602e7a619662ebed4f90d93824c7"
                     ],
                     "taker_addresses": [
-                        "0x6af9ec649821c2213dc488c36e3e3e999c3d7934"
+                        "0x6af9ec649821c2213dc488c36e3e3e999c3d7934",
+                        "0x41f8d14c9475444f30a80431c68cf24dc9a8369a"
                     ]
                 }
             }
