@@ -503,8 +503,8 @@
         ]
     },
     "95344297-5774-461e-bd47-648d00930b3f": {
-        "name" : "Ethfinex",
-        "homepage_url": "https://trustless.ethfinex.com/",
+        "name" : "DeversiFi",
+        "homepage_url": "https://deversifi.com/",
         "app_url": "https://trustless.ethfinex.com/",
         "networks" : [
             {
